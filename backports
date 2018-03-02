@@ -1,0 +1,47 @@
+Package: python-django
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-django-common
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: gunicorn
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-pyasn1
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-requests
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-urllib3
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-cryptography
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-ndg-httpsclient
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-openssl
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-jwcrypto
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-setuptools
+Pin: release a=jessie-backports
+Pin-Priority: 900
+
+Package: python-pkg-resources
+Pin: release a=jessie-backports
+Pin-Priority: 900
