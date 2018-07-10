@@ -50,12 +50,11 @@ RUN apt-get update \
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        supervisor hobo-agent; exit 0
-
 RUN sed -i '/supervisorctl/d' /var/lib/dpkg/info/hobo-agent.postinst \
     && apt-get install \
     && rm -rf /var/lib/apt/lists/*
 
-# COPY GLOBAL PROPERTY FILES (COMMUN TO ALL PUBLIK DOCKER COMPONENTS) 
+# COPY GLOBAL PROPERTY FILES (COMMON TO ALL PUBLIK DOCKER COMPONENTS) 
 COPY hobo-agent.settings.py /etc/hobo-agent/settings.py
 COPY secret /tmp/secret
 
