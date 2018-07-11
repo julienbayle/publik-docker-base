@@ -46,7 +46,9 @@ RUN apt-get update \
 # INSTALL HOBO AGENT
 # Always fails as it tries to connect to rabbitmq on configure phase
 # So we modify package file to prevent hobo-agent from starting
-# Then finish install
+# Todo this, these lines are removed from postinst script
+#     supervisorctl reread
+#     supervisorctl restart hobo-agent
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        supervisor hobo-agent; exit 0
