@@ -49,6 +49,8 @@ RUN apt-get update \
 # Todo this, these lines are removed from postinst script
 #     supervisorctl reread
 #     supervisorctl restart hobo-agent
+RUN mkdir -p /etc/hobo-agent/settings.d 
+COPY hobo-agent.settings.py /etc/hobo-agent/settings.d/broker.py
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
        supervisor hobo-agent; exit 0
@@ -57,8 +59,8 @@ RUN sed -i '/supervisorctl/d' /var/lib/dpkg/info/hobo-agent.postinst \
     && rm -rf /var/lib/apt/lists/*
 
 # COPY GLOBAL PROPERTY FILES (COMMON TO ALL PUBLIK DOCKER COMPONENTS) 
-COPY hobo-agent.settings.py /etc/hobo-agent/settings.py
 COPY secret /tmp/secret
+COPY global.nginx.conf /etc/nginx/conf.d/global.conf
 
 # Add Wait-For-it COMAND LINE (DOCKER DEPENDENCIES MANAGEMENT MADE SIMPLE)
 COPY wait-for-it.sh /root
