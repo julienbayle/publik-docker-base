@@ -45,3 +45,7 @@ Pin-Priority: 900
 Package: python-pkg-resources
 Pin: release a=jessie-backports
 Pin-Priority: 900
+
+Package: python-six
+Pin: release a=jessie-backports
+Pin-Priority: 900
