@@ -4,7 +4,7 @@ MAINTAINER Julien BAYLE <julien.bayle@loire-atlantique.fr>
 
 # WGET, NGNIX, VIM, ENVSUBST
 RUN apt-get update \
-    && apt-get install -y vim gettext wget nginx-full \
+    && apt-get install -y vim gettext wget nginx-full git \
     && rm -rf /var/lib/apt/lists/*
 
 # APT SOURCES
@@ -65,3 +65,6 @@ COPY global.nginx.conf /etc/nginx/conf.d/global.conf
 # Add Wait-For-it COMAND LINE (DOCKER DEPENDENCIES MANAGEMENT MADE SIMPLE)
 COPY wait-for-it.sh /root
 RUN chmod +x /root/wait-for-it.sh
+
+# Add GRU UPDATE SCRIPT
+COPY update.sh /root
