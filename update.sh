@@ -25,34 +25,47 @@ PUBLIK_THEMES_GIT="https://github.com/departement-loire-atlantique/publik-themes
 PUBLIK_PYTHON_MODULES="/usr/lib/python2.7/dist-packages"
 PUBLIK_PATCHES_GIT="https://github.com/departement-loire-atlantique/publik"
 PUBLIK_PATCHES_DIR="/root/publik-patches"
+PUBLIK_APT_PREFERENCES_GIT="https://raw.githubusercontent.com/departement-loire-atlantique/publik-docker-base/master/"
+PUBLIK_APT_PREFERENCES_FILE="publik-prod-apt-preferences"
 LOG_DIR=/var/log/publik_updates
+NOW=`date '+%Y-%m-%d_%H-%M-%S'`
 
 # ------------------------------------------
 # ARGUMENT PARSING
 # ------------------------------------------
 
 PARAMS=""
+DO_LOG=""
 DO_THEME=""
 DO_PATCH=""
 DO_APT=""
+DO_PREF=""
 DO_RESTART_GRU=""
 
 while (( "$#" )); do
   case "$1" in
     -t|--update-theme)
+      DO_LOG="1"
       DO_THEME="1"
       shift
       ;;
     -s|--update-packages)
+      DO_LOG="1"
       DO_APT="1"
       DO_PATCH="1"
       shift
       ;;
     -p|--patch)
+      DO_LOG="1"
       DO_PATCH="1"
       shift
       ;;
+    -g|--generate-apt-preferences)
+      DO_PREF="1"
+      shift
+      ;;
     -a|--all)
+      DO_LOG="1"
       DO_THEME="1"
       DO_APT="1"
       DO_PATCH="1"
@@ -73,8 +86,8 @@ while (( "$#" )); do
   esac
 done
 
-if [ -z "$DO_THEME$DO_APT$DO_PATCH" ]; then
-	echo "ERROR - Nothing to do. Please use --update-theme, --update-packages, --patch or --all"
+if [ -z "$DO_THEME$DO_APT$DO_PATCH$DO_PREF" ]; then
+	echo "ERROR - Nothing to do. Please use --update-theme, --generate-apt-preferences, --update-packages, --patch or --all"
 	exit 1
 fi
 
@@ -97,22 +110,18 @@ if [ $PUBLIK_REPOSITORY == "0" ]; then
 	exit 1
 fi
 
-IS_TESTING=`cat /etc/apt/sources.list | grep "deb.entrouvert.org/ jessie-testing" | wc -l`
-if [ $IS_TESTING == "1" ]; then
-	echo "INFO - Publik installation mode : Validation"
-else
-	echo "INFO - Publik installation mode : Production"
-fi
-
 # ------------------------------------------
 # INIT LOGS
 # ------------------------------------------
 
-NOW=`date '+%Y-%m-%d_%H-%M-%S'`
-LOG_FILE=$LOG_DIR/$NOW
-mkdir -p $LOG_DIR
+if [ "$DO_LOG" == "1" ]; then
 
-echo "INFO - Execution details available in $LOG_FILE"
+	LOG_FILE=$LOG_DIR/$NOW
+	mkdir -p $LOG_DIR
+
+	echo "INFO - Execution details available in $LOG_FILE"
+
+fi
 
 # -----------------------------------------
 # FUNCTIONS
@@ -137,6 +146,18 @@ trap 'error_report $LINENO' ERR
 
 if [ "$DO_APT" == "1" ]; then
 
+	IS_TESTING=`cat /etc/apt/sources.list | grep "deb.entrouvert.org/ jessie-testing" | wc -l`
+	if [ $IS_TESTING == "1" ]; then
+		log "INFO - Publik installation mode : Validation"
+	else
+		log "INFO - Publik installation mode : Production"
+		log "UPDATE APT PREFERENCES"
+		cd /etc/apt/preferences.d/
+		if [ -f $PUBLIK_APT_PREFERENCES_FILE ]; then
+			rm $PUBLIK_APT_PREFERENCES_FILE 
+		fi
+		wget -qO- "$PUBLIK_APT_PREFERENCES_GIT$PUBLIK_APT_PREFERENCES_FILE" >> $PUBLIK_APT_PREFERENCES_FILE 		
+	fi
 
 	log "APT-GET UPDATE"
 	apt-get update >> $LOG_FILE 
@@ -151,20 +172,15 @@ if [ "$DO_APT" == "1" ]; then
 	if [ $NEEDUPDATE -gt 0 ]; then
 	
 		# Beware : All publik services must be up during the update process
-		if [ $IS_TESTING == "1" ]; then
-			log "UN-PATCH BEFORE UPDATE"
-			cd $PUBLIK_PYTHON_MODULES
-			quilt pop -a >> $LOG_FILE
+		log "UN-PATCH BEFORE UPDATE"
+		cd $PUBLIK_PYTHON_MODULES
+		quilt pop -a >> $LOG_FILE
+	
+		log "UPGRADING..."
+		apt-get -y upgrade >> $LOG_FILE
 		
-			log "UPGRADING..."
-			apt-get -y upgrade >> $LOG_FILE
-			
-			log "UPGRADE DONE"
-			DO_RESTART_GRU="1"
-		else
-        		log "Production mode not implemented"
-			exit 1	
-		fi 
+		log "UPGRADE DONE"
+		DO_RESTART_GRU="1"
 	else
 		log "PACKAGES ARE UP TO DATE"
 	fi 
@@ -241,6 +257,27 @@ if [ "$DO_THEME" == "1" ]; then
 	make install >> $LOG_FILE
 
 	log "THEME HAS BEEN UPDATED SUCCESSFULLY"
+fi
+			
+# -------------------------------------
+# APT PREFERENCES
+# -------------------------------------
+
+if [ "$DO_PREF" == "1" ]; then
+	
+	echo "# Generated on $NOW"
+	echo "" 
+
+	dpkg-query -W | while read line
+	do
+   		# generate apt preferences
+		paquet=`echo "$line" | cut -f1`
+		version=`echo "$line" | cut -f2`
+		echo "Package: $paquet"
+		echo "Pin: version $version"
+		echo "Pin-Priority: 999"
+		echo ""
+	done
 fi
 			
 # -------------------------------------
