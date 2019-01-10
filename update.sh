@@ -52,7 +52,6 @@ while (( "$#" )); do
     -s|--update-packages)
       DO_LOG="1"
       DO_APT="1"
-      DO_PATCH="1"
       shift
       ;;
     -p|--patch)
@@ -181,6 +180,7 @@ if [ "$DO_APT" == "1" ]; then
 		
 		log "UPGRADE DONE"
 		DO_RESTART_GRU="1"
+		DO_PATCH="1"
 	else
 		log "PACKAGES ARE UP TO DATE"
 	fi 
