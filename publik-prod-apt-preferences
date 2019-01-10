@@ -1,0 +1,3430 @@
+# Generated on 2019-01-10_16-13-58
+
+Package: acl
+Pin: version 2.2.52-2
+Pin-Priority: 999
+
+Package: acpi
+Pin: version 1.7-1
+Pin-Priority: 999
+
+Package: acpi-support-base
+Pin: version 0.142-6
+Pin-Priority: 999
+
+Package: acpid
+Pin: version 1:2.0.23-2
+Pin-Priority: 999
+
+Package: adduser
+Pin: version 3.113+nmu3
+Pin-Priority: 999
+
+Package: apt
+Pin: version 1.0.9.8.4
+Pin-Priority: 999
+
+Package: apt-listchanges
+Pin: version 2.85.13+nmu1
+Pin-Priority: 999
+
+Package: apt-transport-https
+Pin: version 1.0.9.8.4
+Pin-Priority: 999
+
+Package: apt-utils
+Pin: version 1.0.9.8.4
+Pin-Priority: 999
+
+Package: aptitude
+Pin: version 0.6.11-1+b1
+Pin-Priority: 999
+
+Package: aptitude-common
+Pin: version 0.6.11-1
+Pin-Priority: 999
+
+Package: aptitude-doc-en
+Pin: version 0.6.11-1
+Pin-Priority: 999
+
+Package: aspell
+Pin: version 0.60.7~20110707-1.3
+Pin-Priority: 999
+
+Package: aspell-fr
+Pin: version 0.50-3-7
+Pin-Priority: 999
+
+Package: at
+Pin: version 3.1.16-1
+Pin-Priority: 999
+
+Package: aufs-tools
+Pin: version 1:3.2+20130722-1.1
+Pin-Priority: 999
+
+Package: authentic2-multitenant
+Pin: version 2.1.47-1~eob80+1
+Pin-Priority: 999
+
+Package: autopoint
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: base-files
+Pin: version 8+deb8u11
+Pin-Priority: 999
+
+Package: base-passwd
+Pin: version 3.5.37
+Pin-Priority: 999
+
+Package: bash
+Pin: version 4.3-11+deb8u1
+Pin-Priority: 999
+
+Package: bash-completion
+Pin: version 1:2.1-4
+Pin-Priority: 999
+
+Package: bc
+Pin: version 1.06.95-9
+Pin-Priority: 999
+
+Package: bind9-host
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: binutils
+Pin: version 2.25-5+deb8u1
+Pin-Priority: 999
+
+Package: bsd-mailx
+Pin: version 8.1.2-0.20141216cvs-2
+Pin-Priority: 999
+
+Package: bsdmainutils
+Pin: version 9.0.6
+Pin-Priority: 999
+
+Package: bsdutils
+Pin: version 1:2.25.2-6
+Pin-Priority: 999
+
+Package: build-essential
+Pin: version 11.7
+Pin-Priority: 999
+
+Package: busybox
+Pin: version 1:1.22.0-9+deb8u4
+Pin-Priority: 999
+
+Package: bzip2
+Pin: version 1.0.6-7+b3
+Pin-Priority: 999
+
+Package: ca-certificates
+Pin: version 20141019+deb8u4
+Pin-Priority: 999
+
+Package: cgroupfs-mount
+Pin: version 1.1
+Pin-Priority: 999
+
+Package: coinor-libcbc3
+Pin: version 2.8.12-1
+Pin-Priority: 999
+
+Package: coinor-libcgl1
+Pin: version 0.58.9-1
+Pin-Priority: 999
+
+Package: coinor-libclp1
+Pin: version 1.15.10-1
+Pin-Priority: 999
+
+Package: coinor-libcoinmp1:amd64
+Pin: version 1.7.6+dfsg1-1
+Pin-Priority: 999
+
+Package: coinor-libcoinutils3
+Pin: version 2.9.15-3
+Pin-Priority: 999
+
+Package: coinor-libosi1
+Pin: version 0.106.9-1
+Pin-Priority: 999
+
+Package: combo
+Pin: version 1.87-1~eob80+1
+Pin-Priority: 999
+
+Package: console-setup
+Pin: version 1.123
+Pin-Priority: 999
+
+Package: console-setup-linux
+Pin: version 1.123
+Pin-Priority: 999
+
+Package: coreutils
+Pin: version 8.23-4
+Pin-Priority: 999
+
+Package: cpio
+Pin: version 2.11+dfsg-4.1+deb8u1
+Pin-Priority: 999
+
+Package: cpp
+Pin: version 4:4.9.2-2
+Pin-Priority: 999
+
+Package: cpp-4.9
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: cron
+Pin: version 3.0pl1-127+deb8u1
+Pin-Priority: 999
+
+Package: curl
+Pin: version 7.38.0-4+deb8u13
+Pin-Priority: 999
+
+Package: dash
+Pin: version 0.5.7-4+b1
+Pin-Priority: 999
+
+Package: dbconfig-common
+Pin: version 1.8.47+nmu3+deb8u1
+Pin-Priority: 999
+
+Package: dbus
+Pin: version 1.8.22-0+deb8u1
+Pin-Priority: 999
+
+Package: dc
+Pin: version 1.06.95-9
+Pin-Priority: 999
+
+Package: debconf
+Pin: version 1.5.56+deb8u1
+Pin-Priority: 999
+
+Package: debconf-i18n
+Pin: version 1.5.56+deb8u1
+Pin-Priority: 999
+
+Package: debian-archive-keyring
+Pin: version 2017.5~deb8u1
+Pin-Priority: 999
+
+Package: debian-faq
+Pin: version 5.0.3
+Pin-Priority: 999
+
+Package: debian-policy
+Pin: version 3.9.6.1
+Pin-Priority: 999
+
+Package: debianutils
+Pin: version 4.4+b1
+Pin-Priority: 999
+
+Package: developers-reference-fr
+Pin: version 3.4.14
+Pin-Priority: 999
+
+Package: dh-python
+Pin: version 1.20141111-2
+Pin-Priority: 999
+
+Package: dictionaries-common
+Pin: version 1.23.17
+Pin-Priority: 999
+
+Package: diffstat
+Pin: version 1.58-1
+Pin-Priority: 999
+
+Package: diffutils
+Pin: version 1:3.3-1+b1
+Pin-Priority: 999
+
+Package: discover
+Pin: version 2.1.2-7
+Pin-Priority: 999
+
+Package: discover-data
+Pin: version 2.2013.01.11
+Pin-Priority: 999
+
+Package: dmeventd
+Pin: version 2:1.02.90-2.2+deb8u1
+Pin-Priority: 999
+
+Package: dmidecode
+Pin: version 2.12-3
+Pin-Priority: 999
+
+Package: dmsetup
+Pin: version 2:1.02.90-2.2+deb8u1
+Pin-Priority: 999
+
+Package: dnsutils
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: doc-debian
+Pin: version 6.2
+Pin-Priority: 999
+
+Package: doc-debian-fr
+Pin: version 3.1.3.1
+Pin-Priority: 999
+
+Package: doc-linux-fr-text
+Pin: version 2013.01-2
+Pin-Priority: 999
+
+Package: docker-ce
+Pin: version 18.06.1~ce~3-0~debian
+Pin-Priority: 999
+
+Package: docutils-common
+Pin: version 0.12+dfsg-1
+Pin-Priority: 999
+
+Package: docutils-doc
+Pin: version 0.12+dfsg-1
+Pin-Priority: 999
+
+Package: dpkg
+Pin: version 1.17.27
+Pin-Priority: 999
+
+Package: dpkg-dev
+Pin: version 1.17.27
+Pin-Priority: 999
+
+Package: e2fslibs:amd64
+Pin: version 1.42.12-2+b1
+Pin-Priority: 999
+
+Package: e2fsprogs
+Pin: version 1.42.12-2+b1
+Pin-Priority: 999
+
+Package: eject
+Pin: version 2.1.5+deb1+cvs20081104-13.1+deb8u1
+Pin-Priority: 999
+
+Package: emacsen-common
+Pin: version 2.0.8
+Pin-Priority: 999
+
+Package: erlang-asn1
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-base
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-corba
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-crypto
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-diameter
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-edoc
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-eldap
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-erl-docgen
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-eunit
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-ic
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-inets
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-mnesia
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-nox
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-odbc
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-os-mon
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-parsetools
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-percept
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-public-key
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-runtime-tools
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-snmp
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-ssh
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-ssl
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-syntax-tools
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-tools
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-webtool
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: erlang-xmerl
+Pin: version 1:17.3-dfsg-4+deb8u2
+Pin-Priority: 999
+
+Package: exim4
+Pin: version 4.84.2-2+deb8u5
+Pin-Priority: 999
+
+Package: exim4-base
+Pin: version 4.84.2-2+deb8u5
+Pin-Priority: 999
+
+Package: exim4-config
+Pin: version 4.84.2-2+deb8u5
+Pin-Priority: 999
+
+Package: exim4-daemon-light
+Pin: version 4.84.2-2+deb8u5
+Pin-Priority: 999
+
+Package: fakeroot
+Pin: version 1.20.2-1
+Pin-Priority: 999
+
+Package: fargo
+Pin: version 0.29-1~eob80+1
+Pin-Priority: 999
+
+Package: file
+Pin: version 1:5.22+15-2+deb8u4
+Pin-Priority: 999
+
+Package: findutils
+Pin: version 4.4.2-9+b1
+Pin-Priority: 999
+
+Package: firmware-linux-free
+Pin: version 3.3
+Pin-Priority: 999
+
+Package: fontconfig
+Pin: version 2.11.0-6.3+deb8u1
+Pin-Priority: 999
+
+Package: fontconfig-config
+Pin: version 2.11.0-6.3+deb8u1
+Pin-Priority: 999
+
+Package: fonts-dejavu
+Pin: version 2.34-1
+Pin-Priority: 999
+
+Package: fonts-dejavu-core
+Pin: version 2.34-1
+Pin-Priority: 999
+
+Package: fonts-dejavu-extra
+Pin: version 2.34-1
+Pin-Priority: 999
+
+Package: fonts-font-awesome
+Pin: version 4.2.0~dfsg-1
+Pin-Priority: 999
+
+Package: fonts-opensymbol
+Pin: version 2:102.6+LibO4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: fonts-roboto-fontface
+Pin: version 0.4.3-1~bpo8+1
+Pin-Priority: 999
+
+Package: fonts-sil-gentium-basic
+Pin: version 1.1-7
+Pin-Priority: 999
+
+Package: ftp
+Pin: version 0.17-31
+Pin-Priority: 999
+
+Package: g++
+Pin: version 4:4.9.2-2
+Pin-Priority: 999
+
+Package: g++-4.9
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: gcc
+Pin: version 4:4.9.2-2
+Pin-Priority: 999
+
+Package: gcc-4.8-base:amd64
+Pin: version 4.8.4-1
+Pin-Priority: 999
+
+Package: gcc-4.9
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: gcc-4.9-base:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: geoip-database
+Pin: version 20150317-1
+Pin-Priority: 999
+
+Package: gettext
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: gettext-base
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: gir1.2-glib-2.0:amd64
+Pin: version 1.42.0-2.2
+Pin-Priority: 999
+
+Package: git
+Pin: version 1:2.1.4-2.1+deb8u7
+Pin-Priority: 999
+
+Package: git-man
+Pin: version 1:2.1.4-2.1+deb8u7
+Pin-Priority: 999
+
+Package: gnupg
+Pin: version 1.4.18-7+deb8u5
+Pin-Priority: 999
+
+Package: gnupg-agent
+Pin: version 2.0.26-6+deb8u2
+Pin-Priority: 999
+
+Package: gnupg2
+Pin: version 2.0.26-6+deb8u2
+Pin-Priority: 999
+
+Package: gpgv
+Pin: version 1.4.18-7+deb8u5
+Pin-Priority: 999
+
+Package: graphicsmagick
+Pin: version 1.3.20-3+deb8u5
+Pin-Priority: 999
+
+Package: graphicsmagick-imagemagick-compat
+Pin: version 1.3.20-3+deb8u5
+Pin-Priority: 999
+
+Package: graphviz
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: grep
+Pin: version 2.20-4.1
+Pin-Priority: 999
+
+Package: groff-base
+Pin: version 1.22.2-8
+Pin-Priority: 999
+
+Package: grub-common
+Pin: version 2.02~beta2-22+deb8u1
+Pin-Priority: 999
+
+Package: grub-pc
+Pin: version 2.02~beta2-22+deb8u1
+Pin-Priority: 999
+
+Package: grub-pc-bin
+Pin: version 2.02~beta2-22+deb8u1
+Pin-Priority: 999
+
+Package: grub2-common
+Pin: version 2.02~beta2-22+deb8u1
+Pin-Priority: 999
+
+Package: gunicorn
+Pin: version 19.6.0-2~bpo8+1
+Pin-Priority: 999
+
+Package: gzip
+Pin: version 1.6-4
+Pin-Priority: 999
+
+Package: hicolor-icon-theme
+Pin: version 0.13-1
+Pin-Priority: 999
+
+Package: hobo
+Pin: version 1.2-1~eob80+1
+Pin-Priority: 999
+
+Package: hobo-agent
+Pin: version 1.2-1~eob80+1
+Pin-Priority: 999
+
+Package: host
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: hostname
+Pin: version 3.15
+Pin-Priority: 999
+
+Package: ifrench-gut
+Pin: version 1:1.0-30
+Pin-Priority: 999
+
+Package: ifupdown
+Pin: version 0.7.53.1
+Pin-Priority: 999
+
+Package: info
+Pin: version 5.2.0.dfsg.1-6
+Pin-Priority: 999
+
+Package: init
+Pin: version 1.22
+Pin-Priority: 999
+
+Package: init-system-helpers
+Pin: version 1.22
+Pin-Priority: 999
+
+Package: initramfs-tools
+Pin: version 0.120+deb8u3
+Pin-Priority: 999
+
+Package: initscripts
+Pin: version 2.88dsf-59
+Pin-Priority: 999
+
+Package: insserv
+Pin: version 1.14.0-5
+Pin-Priority: 999
+
+Package: install-info
+Pin: version 5.2.0.dfsg.1-6
+Pin-Priority: 999
+
+Package: installation-report
+Pin: version 2.58
+Pin-Priority: 999
+
+Package: iproute2
+Pin: version 3.16.0-2
+Pin-Priority: 999
+
+Package: iptables
+Pin: version 1.4.21-2+b1
+Pin-Priority: 999
+
+Package: iputils-ping
+Pin: version 3:20121221-5+b2
+Pin-Priority: 999
+
+Package: irqbalance
+Pin: version 1.0.6-3+deb8u1
+Pin-Priority: 999
+
+Package: isc-dhcp-client
+Pin: version 4.3.1-6+deb8u3
+Pin-Priority: 999
+
+Package: isc-dhcp-common
+Pin: version 4.3.1-6+deb8u3
+Pin-Priority: 999
+
+Package: iso-codes
+Pin: version 3.57-1
+Pin-Priority: 999
+
+Package: ispell
+Pin: version 3.3.02-6
+Pin-Priority: 999
+
+Package: javascript-common
+Pin: version 11
+Pin-Priority: 999
+
+Package: kbd
+Pin: version 1.15.5-2
+Pin-Priority: 999
+
+Package: keyboard-configuration
+Pin: version 1.123
+Pin-Priority: 999
+
+Package: klibc-utils
+Pin: version 2.0.4-2
+Pin-Priority: 999
+
+Package: kmod
+Pin: version 18-3
+Pin-Priority: 999
+
+Package: krb5-locales
+Pin: version 1.12.1+dfsg-19+deb8u4
+Pin-Priority: 999
+
+Package: laptop-detect
+Pin: version 0.13.7
+Pin-Priority: 999
+
+Package: less
+Pin: version 458-3
+Pin-Priority: 999
+
+Package: libabw-0.1-1
+Pin: version 0.1.0-2
+Pin-Priority: 999
+
+Package: libacl1:amd64
+Pin: version 2.2.52-2
+Pin-Priority: 999
+
+Package: libalgorithm-c3-perl
+Pin: version 0.09-1
+Pin-Priority: 999
+
+Package: libalgorithm-diff-perl
+Pin: version 1.19.02-3
+Pin-Priority: 999
+
+Package: libalgorithm-diff-xs-perl
+Pin: version 0.04-3+b1
+Pin-Priority: 999
+
+Package: libalgorithm-merge-perl
+Pin: version 0.08-2
+Pin-Priority: 999
+
+Package: libapt-inst1.5:amd64
+Pin: version 1.0.9.8.4
+Pin-Priority: 999
+
+Package: libapt-pkg4.12:amd64
+Pin: version 1.0.9.8.4
+Pin-Priority: 999
+
+Package: libarchive-extract-perl
+Pin: version 0.72-1
+Pin-Priority: 999
+
+Package: libasan1:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libaspell15:amd64
+Pin: version 0.60.7~20110707-1.3
+Pin-Priority: 999
+
+Package: libasprintf-dev:amd64
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: libasprintf0c2:amd64
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: libassuan0:amd64
+Pin: version 2.1.2-2
+Pin-Priority: 999
+
+Package: libatk1.0-0:amd64
+Pin: version 2.14.0-1
+Pin-Priority: 999
+
+Package: libatk1.0-data
+Pin: version 2.14.0-1
+Pin-Priority: 999
+
+Package: libatomic1:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libattr1:amd64
+Pin: version 1:2.4.47-2
+Pin-Priority: 999
+
+Package: libaudit-common
+Pin: version 1:2.4-1
+Pin-Priority: 999
+
+Package: libaudit1:amd64
+Pin: version 1:2.4-1+b1
+Pin-Priority: 999
+
+Package: libauthen-sasl-perl
+Pin: version 2.1600-1
+Pin-Priority: 999
+
+Package: libavahi-client3:amd64
+Pin: version 0.6.31-5
+Pin-Priority: 999
+
+Package: libavahi-common-data:amd64
+Pin: version 0.6.31-5
+Pin-Priority: 999
+
+Package: libavahi-common3:amd64
+Pin: version 0.6.31-5
+Pin-Priority: 999
+
+Package: libbind9-90
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libblas-common
+Pin: version 1.2.20110419-10
+Pin-Priority: 999
+
+Package: libblas3
+Pin: version 1.2.20110419-10
+Pin-Priority: 999
+
+Package: libblkid1:amd64
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: libboost-date-time1.55.0:amd64
+Pin: version 1.55.0+dfsg-3
+Pin-Priority: 999
+
+Package: libboost-iostreams1.55.0:amd64
+Pin: version 1.55.0+dfsg-3
+Pin-Priority: 999
+
+Package: libboost-system1.55.0:amd64
+Pin: version 1.55.0+dfsg-3
+Pin-Priority: 999
+
+Package: libbsd0:amd64
+Pin: version 0.7.0-2
+Pin-Priority: 999
+
+Package: libbz2-1.0:amd64
+Pin: version 1.0.6-7+b3
+Pin-Priority: 999
+
+Package: libc-bin
+Pin: version 2.19-18+deb8u10
+Pin-Priority: 999
+
+Package: libc-dev-bin
+Pin: version 2.19-18+deb8u10
+Pin-Priority: 999
+
+Package: libc6:amd64
+Pin: version 2.19-18+deb8u10
+Pin-Priority: 999
+
+Package: libc6-dev:amd64
+Pin: version 2.19-18+deb8u10
+Pin-Priority: 999
+
+Package: libcairo2:amd64
+Pin: version 1.14.0-2.1+deb8u2
+Pin-Priority: 999
+
+Package: libcap-ng0:amd64
+Pin: version 0.7.4-2
+Pin-Priority: 999
+
+Package: libcap2:amd64
+Pin: version 1:2.24-8
+Pin-Priority: 999
+
+Package: libcap2-bin
+Pin: version 1:2.24-8
+Pin-Priority: 999
+
+Package: libcdr-0.1-1
+Pin: version 0.1.0-3
+Pin-Priority: 999
+
+Package: libcdt5
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: libcgi-fast-perl
+Pin: version 1:2.04-1
+Pin-Priority: 999
+
+Package: libcgi-pm-perl
+Pin: version 4.09-1
+Pin-Priority: 999
+
+Package: libcgraph6
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: libcilkrts5:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libclass-accessor-perl
+Pin: version 0.34-1
+Pin-Priority: 999
+
+Package: libclass-c3-perl
+Pin: version 0.26-1
+Pin-Priority: 999
+
+Package: libclass-c3-xs-perl
+Pin: version 0.13-2+b1
+Pin-Priority: 999
+
+Package: libclass-isa-perl
+Pin: version 0.36-5
+Pin-Priority: 999
+
+Package: libcloog-isl4:amd64
+Pin: version 0.18.2-1+b2
+Pin-Priority: 999
+
+Package: libclucene-contribs1:amd64
+Pin: version 2.3.3.4-4
+Pin-Priority: 999
+
+Package: libclucene-core1:amd64
+Pin: version 2.3.3.4-4
+Pin-Priority: 999
+
+Package: libcmis-0.4-4
+Pin: version 0.4.1-7
+Pin-Priority: 999
+
+Package: libcolamd2.8.0:amd64
+Pin: version 1:4.2.1-3
+Pin-Priority: 999
+
+Package: libcomerr2:amd64
+Pin: version 1.42.12-2+b1
+Pin-Priority: 999
+
+Package: libcpan-meta-perl
+Pin: version 2.142690-1
+Pin-Priority: 999
+
+Package: libcroco3:amd64
+Pin: version 0.6.8-3+b1
+Pin-Priority: 999
+
+Package: libcryptsetup4:amd64
+Pin: version 2:1.6.6-5
+Pin-Priority: 999
+
+Package: libcups2:amd64
+Pin: version 1.7.5-11+deb8u4
+Pin-Priority: 999
+
+Package: libcurl3:amd64
+Pin: version 7.38.0-4+deb8u13
+Pin-Priority: 999
+
+Package: libcurl3-gnutls:amd64
+Pin: version 7.38.0-4+deb8u13
+Pin-Priority: 999
+
+Package: libcwidget3:amd64
+Pin: version 0.5.17-2
+Pin-Priority: 999
+
+Package: libdata-optlist-perl
+Pin: version 0.109-1
+Pin-Priority: 999
+
+Package: libdata-section-perl
+Pin: version 0.200006-1
+Pin-Priority: 999
+
+Package: libdatrie1:amd64
+Pin: version 0.2.8-1
+Pin-Priority: 999
+
+Package: libdb5.3:amd64
+Pin: version 5.3.28-9+deb8u1
+Pin-Priority: 999
+
+Package: libdbus-1-3:amd64
+Pin: version 1.8.22-0+deb8u1
+Pin-Priority: 999
+
+Package: libdbus-glib-1-2:amd64
+Pin: version 0.102-1
+Pin-Priority: 999
+
+Package: libdebconfclient0:amd64
+Pin: version 0.192
+Pin-Priority: 999
+
+Package: libdevmapper-event1.02.1:amd64
+Pin: version 2:1.02.90-2.2+deb8u1
+Pin-Priority: 999
+
+Package: libdevmapper1.02.1:amd64
+Pin: version 2:1.02.90-2.2+deb8u1
+Pin-Priority: 999
+
+Package: libdiscover2
+Pin: version 2.1.2-7
+Pin-Priority: 999
+
+Package: libdns-export100
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libdns100
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libdpkg-perl
+Pin: version 1.17.27
+Pin-Priority: 999
+
+Package: libdrm2:amd64
+Pin: version 2.4.58-2
+Pin-Priority: 999
+
+Package: libe-book-0.1-1
+Pin: version 0.1.1-2
+Pin-Priority: 999
+
+Package: libedit2:amd64
+Pin: version 3.1-20140620-2
+Pin-Priority: 999
+
+Package: libencode-locale-perl
+Pin: version 1.03-1
+Pin-Priority: 999
+
+Package: libeot0
+Pin: version 0.01-3
+Pin-Priority: 999
+
+Package: liberror-perl
+Pin: version 0.17-1.1
+Pin-Priority: 999
+
+Package: libestr0
+Pin: version 0.1.9-1.1
+Pin-Priority: 999
+
+Package: libetonyek-0.1-1
+Pin: version 0.1.1-2
+Pin-Priority: 999
+
+Package: libevent-2.0-5:amd64
+Pin: version 2.0.21-stable-2+deb8u1
+Pin-Priority: 999
+
+Package: libexpat1:amd64
+Pin: version 2.1.0-6+deb8u4
+Pin-Priority: 999
+
+Package: libexttextcat-2.0-0
+Pin: version 3.4.4-1
+Pin-Priority: 999
+
+Package: libexttextcat-data
+Pin: version 3.4.4-1
+Pin-Priority: 999
+
+Package: libfakeroot:amd64
+Pin: version 1.20.2-1
+Pin-Priority: 999
+
+Package: libfcgi-perl
+Pin: version 0.77-1+deb8u1
+Pin-Priority: 999
+
+Package: libffi6:amd64
+Pin: version 3.1-2+deb8u1
+Pin-Priority: 999
+
+Package: libfile-fcntllock-perl
+Pin: version 0.22-1+b1
+Pin-Priority: 999
+
+Package: libfile-listing-perl
+Pin: version 6.04-1
+Pin-Priority: 999
+
+Package: libfont-afm-perl
+Pin: version 1.20-1
+Pin-Priority: 999
+
+Package: libfontconfig1:amd64
+Pin: version 2.11.0-6.3+deb8u1
+Pin-Priority: 999
+
+Package: libfreehand-0.1-1
+Pin: version 0.1.0-2
+Pin-Priority: 999
+
+Package: libfreetype6:amd64
+Pin: version 2.5.2-3+deb8u2
+Pin-Priority: 999
+
+Package: libfuse2:amd64
+Pin: version 2.9.3-15+deb8u3
+Pin-Priority: 999
+
+Package: libgc1c2:amd64
+Pin: version 1:7.2d-6.4
+Pin-Priority: 999
+
+Package: libgcc-4.9-dev:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libgcc1:amd64
+Pin: version 1:4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libgcrypt20:amd64
+Pin: version 1.6.3-2+deb8u5
+Pin-Priority: 999
+
+Package: libgd3:amd64
+Pin: version 2.1.0-5+deb8u11
+Pin-Priority: 999
+
+Package: libgdbm3:amd64
+Pin: version 1.8.3-13.1
+Pin-Priority: 999
+
+Package: libgdk-pixbuf2.0-0:amd64
+Pin: version 2.31.1-2+deb8u7
+Pin-Priority: 999
+
+Package: libgdk-pixbuf2.0-common
+Pin: version 2.31.1-2+deb8u7
+Pin-Priority: 999
+
+Package: libgeoip1:amd64
+Pin: version 1.6.2-4
+Pin-Priority: 999
+
+Package: libgettextpo-dev:amd64
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: libgettextpo0:amd64
+Pin: version 0.19.3-2
+Pin-Priority: 999
+
+Package: libgfortran3:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libgirepository-1.0-1:amd64
+Pin: version 1.42.0-2.2
+Pin-Priority: 999
+
+Package: libgl1-mesa-glx:amd64
+Pin: version 10.3.2-1+deb8u1
+Pin-Priority: 999
+
+Package: libglapi-mesa:amd64
+Pin: version 10.3.2-1+deb8u1
+Pin-Priority: 999
+
+Package: libglew1.10:amd64
+Pin: version 1.10.0-3
+Pin-Priority: 999
+
+Package: libglib2.0-0:amd64
+Pin: version 2.42.1-1+b1
+Pin-Priority: 999
+
+Package: libglib2.0-data
+Pin: version 2.42.1-1
+Pin-Priority: 999
+
+Package: libgltf-0.0-0
+Pin: version 0.0.2-2
+Pin-Priority: 999
+
+Package: libglu1-mesa:amd64
+Pin: version 9.0.0-2
+Pin-Priority: 999
+
+Package: libgmp10:amd64
+Pin: version 2:6.0.0+dfsg-6
+Pin-Priority: 999
+
+Package: libgnutls-deb0-28:amd64
+Pin: version 3.3.30-0+deb8u1
+Pin-Priority: 999
+
+Package: libgnutls-openssl27:amd64
+Pin: version 3.3.30-0+deb8u1
+Pin-Priority: 999
+
+Package: libgomp1:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libgpg-error0:amd64
+Pin: version 1.17-3
+Pin-Priority: 999
+
+Package: libgpgme11:amd64
+Pin: version 1.5.1-6
+Pin-Priority: 999
+
+Package: libgpm2:amd64
+Pin: version 1.20.4-6.1+b2
+Pin-Priority: 999
+
+Package: libgraphicsmagick3
+Pin: version 1.3.20-3+deb8u5
+Pin-Priority: 999
+
+Package: libgraphite2-3:amd64
+Pin: version 1.3.10-1~deb8u1
+Pin-Priority: 999
+
+Package: libgssapi-krb5-2:amd64
+Pin: version 1.12.1+dfsg-19+deb8u4
+Pin-Priority: 999
+
+Package: libgstreamer-plugins-base1.0-0:amd64
+Pin: version 1.4.4-2+deb8u1
+Pin-Priority: 999
+
+Package: libgstreamer1.0-0:amd64
+Pin: version 1.4.4-2+deb8u1
+Pin-Priority: 999
+
+Package: libgtk2.0-0:amd64
+Pin: version 2.24.25-3+deb8u2
+Pin-Priority: 999
+
+Package: libgtk2.0-bin
+Pin: version 2.24.25-3+deb8u2
+Pin-Priority: 999
+
+Package: libgtk2.0-common
+Pin: version 2.24.25-3+deb8u2
+Pin-Priority: 999
+
+Package: libgvc6
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: libgvpr2
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: libharfbuzz-icu0:amd64
+Pin: version 0.9.35-2
+Pin-Priority: 999
+
+Package: libharfbuzz0b:amd64
+Pin: version 0.9.35-2
+Pin-Priority: 999
+
+Package: libhogweed2:amd64
+Pin: version 2.7.1-5+deb8u2
+Pin-Priority: 999
+
+Package: libhtml-form-perl
+Pin: version 6.03-1
+Pin-Priority: 999
+
+Package: libhtml-format-perl
+Pin: version 2.11-1
+Pin-Priority: 999
+
+Package: libhtml-parser-perl
+Pin: version 3.71-1+b3
+Pin-Priority: 999
+
+Package: libhtml-tagset-perl
+Pin: version 3.20-2
+Pin-Priority: 999
+
+Package: libhtml-tree-perl
+Pin: version 5.03-1
+Pin-Priority: 999
+
+Package: libhttp-cookies-perl
+Pin: version 6.01-1
+Pin-Priority: 999
+
+Package: libhttp-daemon-perl
+Pin: version 6.01-1
+Pin-Priority: 999
+
+Package: libhttp-date-perl
+Pin: version 6.02-1
+Pin-Priority: 999
+
+Package: libhttp-message-perl
+Pin: version 6.06-1
+Pin-Priority: 999
+
+Package: libhttp-negotiate-perl
+Pin: version 6.00-2
+Pin-Priority: 999
+
+Package: libhunspell-1.3-0:amd64
+Pin: version 1.3.3-3
+Pin-Priority: 999
+
+Package: libhyphen0
+Pin: version 2.8.8-1
+Pin-Priority: 999
+
+Package: libice6:amd64
+Pin: version 2:1.0.9-1+b1
+Pin-Priority: 999
+
+Package: libicu52:amd64
+Pin: version 52.1-8+deb8u7
+Pin-Priority: 999
+
+Package: libidn11:amd64
+Pin: version 1.29-1+deb8u3
+Pin-Priority: 999
+
+Package: libintl-perl
+Pin: version 1.23-1+deb8u1
+Pin-Priority: 999
+
+Package: libio-html-perl
+Pin: version 1.001-1
+Pin-Priority: 999
+
+Package: libio-socket-ip-perl
+Pin: version 0.32-1
+Pin-Priority: 999
+
+Package: libio-socket-ssl-perl
+Pin: version 2.002-2+deb8u3
+Pin-Priority: 999
+
+Package: libio-string-perl
+Pin: version 1.08-3
+Pin-Priority: 999
+
+Package: libirs-export91
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libisc-export95
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libisc95
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libisccc90
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libisccfg-export90
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libisccfg90
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: libisl10:amd64
+Pin: version 0.12.2-2
+Pin-Priority: 999
+
+Package: libitm1:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libjansson4:amd64
+Pin: version 2.7-1+deb8u1
+Pin-Priority: 999
+
+Package: libjasper1:amd64
+Pin: version 1.900.1-debian1-2.4+deb8u5
+Pin-Priority: 999
+
+Package: libjbig0:amd64
+Pin: version 2.1-3.1
+Pin-Priority: 999
+
+Package: libjpeg62-turbo:amd64
+Pin: version 1:1.3.1-12
+Pin-Priority: 999
+
+Package: libjs-jquery
+Pin: version 1.7.2+dfsg-3.2
+Pin-Priority: 999
+
+Package: libjson-c2:amd64
+Pin: version 0.11-4
+Pin-Priority: 999
+
+Package: libk5crypto3:amd64
+Pin: version 1.12.1+dfsg-19+deb8u4
+Pin-Priority: 999
+
+Package: libkeyutils1:amd64
+Pin: version 1.5.9-5+b1
+Pin-Priority: 999
+
+Package: libklibc
+Pin: version 2.0.4-2
+Pin-Priority: 999
+
+Package: libkmod2:amd64
+Pin: version 18-3
+Pin-Priority: 999
+
+Package: libkrb5-3:amd64
+Pin: version 1.12.1+dfsg-19+deb8u4
+Pin-Priority: 999
+
+Package: libkrb5support0:amd64
+Pin: version 1.12.1+dfsg-19+deb8u4
+Pin-Priority: 999
+
+Package: libksba8:amd64
+Pin: version 1.3.2-1+deb8u1
+Pin-Priority: 999
+
+Package: liblangtag-common
+Pin: version 0.5.1-3
+Pin-Priority: 999
+
+Package: liblangtag1
+Pin: version 0.5.1-3
+Pin-Priority: 999
+
+Package: liblapack3
+Pin: version 3.5.0-4
+Pin-Priority: 999
+
+Package: liblasso3
+Pin: version 2.6.0-1~eob80+1
+Pin-Priority: 999
+
+Package: liblcms2-2:amd64
+Pin: version 2.6-3+deb8u2
+Pin-Priority: 999
+
+Package: libldap-2.4-2:amd64
+Pin: version 2.4.40+dfsg-1+deb8u4
+Pin-Priority: 999
+
+Package: liblocale-gettext-perl
+Pin: version 1.05-8+b1
+Pin-Priority: 999
+
+Package: liblockfile-bin
+Pin: version 1.09-6
+Pin-Priority: 999
+
+Package: liblockfile1:amd64
+Pin: version 1.09-6
+Pin-Priority: 999
+
+Package: liblog-message-perl
+Pin: version 0.8-1
+Pin-Priority: 999
+
+Package: liblog-message-simple-perl
+Pin: version 0.10-2
+Pin-Priority: 999
+
+Package: liblogging-stdlog0:amd64
+Pin: version 1.0.4-1
+Pin-Priority: 999
+
+Package: liblognorm1:amd64
+Pin: version 1.0.1-3
+Pin-Priority: 999
+
+Package: liblsan0:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libltdl7:amd64
+Pin: version 2.4.2-1.11+b1
+Pin-Priority: 999
+
+Package: liblvm2cmd2.02:amd64
+Pin: version 2.02.111-2.2+deb8u1
+Pin-Priority: 999
+
+Package: liblwp-mediatypes-perl
+Pin: version 6.02-1
+Pin-Priority: 999
+
+Package: liblwp-protocol-https-perl
+Pin: version 6.06-2
+Pin-Priority: 999
+
+Package: liblwres90
+Pin: version 1:9.9.5.dfsg-9+deb8u16
+Pin-Priority: 999
+
+Package: liblzma5:amd64
+Pin: version 5.1.1alpha+20120614-2+b3
+Pin-Priority: 999
+
+Package: libmagic1:amd64
+Pin: version 1:5.22+15-2+deb8u4
+Pin-Priority: 999
+
+Package: libmailtools-perl
+Pin: version 2.13-1
+Pin-Priority: 999
+
+Package: libmatheval1:amd64
+Pin: version 1.1.11+dfsg-2
+Pin-Priority: 999
+
+Package: libmhash2:amd64
+Pin: version 0.9.9.9-7
+Pin-Priority: 999
+
+Package: libmnl0:amd64
+Pin: version 1.0.3-5
+Pin-Priority: 999
+
+Package: libmodule-build-perl
+Pin: version 0.421000-2+deb8u1
+Pin-Priority: 999
+
+Package: libmodule-pluggable-perl
+Pin: version 5.1-1
+Pin-Priority: 999
+
+Package: libmodule-signature-perl
+Pin: version 0.73-1+deb8u2
+Pin-Priority: 999
+
+Package: libmount1:amd64
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: libmpc3:amd64
+Pin: version 1.0.2-1
+Pin-Priority: 999
+
+Package: libmpdec2:amd64
+Pin: version 2.4.1-1
+Pin-Priority: 999
+
+Package: libmpfr4:amd64
+Pin: version 3.1.2-2
+Pin-Priority: 999
+
+Package: libmro-compat-perl
+Pin: version 0.12-1
+Pin-Priority: 999
+
+Package: libmspub-0.1-1
+Pin: version 0.1.1-2
+Pin-Priority: 999
+
+Package: libmwaw-0.3-3
+Pin: version 0.3.1-2+deb8u1
+Pin-Priority: 999
+
+Package: libmythes-1.2-0
+Pin: version 2:1.2.4-1
+Pin-Priority: 999
+
+Package: libncurses5:amd64
+Pin: version 5.9+20140913-1+deb8u3
+Pin-Priority: 999
+
+Package: libncursesw5:amd64
+Pin: version 5.9+20140913-1+deb8u3
+Pin-Priority: 999
+
+Package: libneon27-gnutls
+Pin: version 0.30.1-1
+Pin-Priority: 999
+
+Package: libnet-http-perl
+Pin: version 6.07-1
+Pin-Priority: 999
+
+Package: libnet-smtp-ssl-perl
+Pin: version 1.01-3
+Pin-Priority: 999
+
+Package: libnet-ssleay-perl
+Pin: version 1.65-1+deb8u1
+Pin-Priority: 999
+
+Package: libnetfilter-acct1:amd64
+Pin: version 1.0.2-1.1
+Pin-Priority: 999
+
+Package: libnettle4:amd64
+Pin: version 2.7.1-5+deb8u2
+Pin-Priority: 999
+
+Package: libnewt0.52:amd64
+Pin: version 0.52.17-1+b1
+Pin-Priority: 999
+
+Package: libnfnetlink0:amd64
+Pin: version 1.0.1-3
+Pin-Priority: 999
+
+Package: libnfsidmap2:amd64
+Pin: version 0.25-5
+Pin-Priority: 999
+
+Package: libnih-dbus1
+Pin: version 1.0.3-4.3
+Pin-Priority: 999
+
+Package: libnih1
+Pin: version 1.0.3-4.3
+Pin-Priority: 999
+
+Package: libnspr4:amd64
+Pin: version 2:4.12-1+debu8u1
+Pin-Priority: 999
+
+Package: libnss3:amd64
+Pin: version 2:3.26-1+debu8u3
+Pin-Priority: 999
+
+Package: libnuma1:amd64
+Pin: version 2.0.10-1
+Pin-Priority: 999
+
+Package: libodbc1:amd64
+Pin: version 2.3.1-3
+Pin-Priority: 999
+
+Package: libodfgen-0.1-1
+Pin: version 0.1.1-2
+Pin-Priority: 999
+
+Package: liborc-0.4-0:amd64
+Pin: version 1:0.4.22-1
+Pin-Priority: 999
+
+Package: liborcus-0.8-0
+Pin: version 0.7.0+dfsg-9
+Pin-Priority: 999
+
+Package: libp11-kit0:amd64
+Pin: version 0.20.7-1
+Pin-Priority: 999
+
+Package: libpackage-constants-perl
+Pin: version 0.04-1
+Pin-Priority: 999
+
+Package: libpam-modules:amd64
+Pin: version 1.1.8-3.1+deb8u2+b1
+Pin-Priority: 999
+
+Package: libpam-modules-bin
+Pin: version 1.1.8-3.1+deb8u2+b1
+Pin-Priority: 999
+
+Package: libpam-runtime
+Pin: version 1.1.8-3.1+deb8u2
+Pin-Priority: 999
+
+Package: libpam0g:amd64
+Pin: version 1.1.8-3.1+deb8u2+b1
+Pin-Priority: 999
+
+Package: libpango-1.0-0:amd64
+Pin: version 1.36.8-3
+Pin-Priority: 999
+
+Package: libpangocairo-1.0-0:amd64
+Pin: version 1.36.8-3
+Pin-Priority: 999
+
+Package: libpangoft2-1.0-0:amd64
+Pin: version 1.36.8-3
+Pin-Priority: 999
+
+Package: libpaper-utils
+Pin: version 1.1.24+nmu4
+Pin-Priority: 999
+
+Package: libpaper1:amd64
+Pin: version 1.1.24+nmu4
+Pin-Priority: 999
+
+Package: libparams-util-perl
+Pin: version 1.07-2+b1
+Pin-Priority: 999
+
+Package: libparse-debianchangelog-perl
+Pin: version 1.2.0-1.1
+Pin-Priority: 999
+
+Package: libpathplan4
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: libpci3:amd64
+Pin: version 1:3.2.1-3
+Pin-Priority: 999
+
+Package: libpcre3:amd64
+Pin: version 2:8.35-3.3+deb8u4
+Pin-Priority: 999
+
+Package: libperl4-corelibs-perl
+Pin: version 0.003-1
+Pin-Priority: 999
+
+Package: libpgm-5.1-0
+Pin: version 5.1.118-1~dfsg-1
+Pin-Priority: 999
+
+Package: libpipeline1:amd64
+Pin: version 1.4.0-1
+Pin-Priority: 999
+
+Package: libpixman-1-0:amd64
+Pin: version 0.32.6-3+deb8u1
+Pin-Priority: 999
+
+Package: libpng12-0:amd64
+Pin: version 1.2.50-2+deb8u3
+Pin-Priority: 999
+
+Package: libpod-latex-perl
+Pin: version 0.61-1
+Pin-Priority: 999
+
+Package: libpod-readme-perl
+Pin: version 0.11-1
+Pin-Priority: 999
+
+Package: libpopt0:amd64
+Pin: version 1.16-10
+Pin-Priority: 999
+
+Package: libpq5:amd64
+Pin: version 9.4.19-0+deb8u1
+Pin-Priority: 999
+
+Package: libprocps3:amd64
+Pin: version 2:3.3.9-9+deb8u1
+Pin-Priority: 999
+
+Package: libpsl0:amd64
+Pin: version 0.5.1-1
+Pin-Priority: 999
+
+Package: libpth20:amd64
+Pin: version 2.0.7-20
+Pin-Priority: 999
+
+Package: libpython-stdlib:amd64
+Pin: version 2.7.9-1
+Pin-Priority: 999
+
+Package: libpython2.7:amd64
+Pin: version 2.7.9-2+deb8u2
+Pin-Priority: 999
+
+Package: libpython2.7-minimal:amd64
+Pin: version 2.7.9-2+deb8u2
+Pin-Priority: 999
+
+Package: libpython2.7-stdlib:amd64
+Pin: version 2.7.9-2+deb8u2
+Pin-Priority: 999
+
+Package: libpython3-stdlib:amd64
+Pin: version 3.4.2-2
+Pin-Priority: 999
+
+Package: libpython3.4:amd64
+Pin: version 3.4.2-1+deb8u1
+Pin-Priority: 999
+
+Package: libpython3.4-minimal:amd64
+Pin: version 3.4.2-1+deb8u1
+Pin-Priority: 999
+
+Package: libpython3.4-stdlib:amd64
+Pin: version 3.4.2-1+deb8u1
+Pin-Priority: 999
+
+Package: libquadmath0:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libraptor2-0:amd64
+Pin: version 2.0.14-1
+Pin-Priority: 999
+
+Package: librasqal3:amd64
+Pin: version 0.9.32-1
+Pin-Priority: 999
+
+Package: librdf0:amd64
+Pin: version 1.0.17-1+b1
+Pin-Priority: 999
+
+Package: libreadline5:amd64
+Pin: version 5.2+dfsg-2
+Pin-Priority: 999
+
+Package: libreadline6:amd64
+Pin: version 6.3-8+b3
+Pin-Priority: 999
+
+Package: libregexp-common-perl
+Pin: version 2013031301-1
+Pin-Priority: 999
+
+Package: libreoffice
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-avmedia-backend-gstreamer
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-base
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-base-core
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-base-drivers
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-calc
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-common
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-core
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-draw
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-impress
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-java-common
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-math
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-report-builder-bin
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-style-galaxy
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: libreoffice-writer
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: librevenge-0.0-0
+Pin: version 0.0.1-3
+Pin-Priority: 999
+
+Package: librtmp1:amd64
+Pin: version 2.4+20150115.gita107cef-1+deb8u1
+Pin-Priority: 999
+
+Package: libruby2.1:amd64
+Pin: version 2.1.5-2+deb8u6
+Pin-Priority: 999
+
+Package: libsasl2-2:amd64
+Pin: version 2.1.26.dfsg1-13+deb8u1
+Pin-Priority: 999
+
+Package: libsasl2-modules:amd64
+Pin: version 2.1.26.dfsg1-13+deb8u1
+Pin-Priority: 999
+
+Package: libsasl2-modules-db:amd64
+Pin: version 2.1.26.dfsg1-13+deb8u1
+Pin-Priority: 999
+
+Package: libsctp1:amd64
+Pin: version 1.0.16+dfsg-2
+Pin-Priority: 999
+
+Package: libselinux1:amd64
+Pin: version 2.3-2
+Pin-Priority: 999
+
+Package: libsemanage-common
+Pin: version 2.3-1
+Pin-Priority: 999
+
+Package: libsemanage1:amd64
+Pin: version 2.3-1+b1
+Pin-Priority: 999
+
+Package: libsepol1:amd64
+Pin: version 2.3-2
+Pin-Priority: 999
+
+Package: libsigc++-2.0-0c2a:amd64
+Pin: version 2.4.0-1
+Pin-Priority: 999
+
+Package: libsigsegv2:amd64
+Pin: version 2.10-4+b1
+Pin-Priority: 999
+
+Package: libslang2:amd64
+Pin: version 2.3.0-2
+Pin-Priority: 999
+
+Package: libsm6:amd64
+Pin: version 2:1.2.2-1+b1
+Pin-Priority: 999
+
+Package: libsmartcols1:amd64
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: libsodium13:amd64
+Pin: version 1.0.0-1
+Pin-Priority: 999
+
+Package: libsoftware-license-perl
+Pin: version 0.103010-3
+Pin-Priority: 999
+
+Package: libsqlite3-0:amd64
+Pin: version 3.8.7.1-1+deb8u3
+Pin-Priority: 999
+
+Package: libss2:amd64
+Pin: version 1.42.12-2+b1
+Pin-Priority: 999
+
+Package: libssh2-1:amd64
+Pin: version 1.4.3-4.1+deb8u1
+Pin-Priority: 999
+
+Package: libssl1.0.0:amd64
+Pin: version 1.0.1t-1+deb8u10
+Pin-Priority: 999
+
+Package: libstdc++-4.9-dev:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libstdc++6:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libsub-exporter-perl
+Pin: version 0.986-1
+Pin-Priority: 999
+
+Package: libsub-install-perl
+Pin: version 0.928-1
+Pin-Priority: 999
+
+Package: libsub-name-perl
+Pin: version 0.12-1
+Pin-Priority: 999
+
+Package: libswitch-perl
+Pin: version 2.17-2
+Pin-Priority: 999
+
+Package: libsystemd0:amd64
+Pin: version 215-17+deb8u8
+Pin-Priority: 999
+
+Package: libtasn1-6:amd64
+Pin: version 4.2-3+deb8u3
+Pin-Priority: 999
+
+Package: libterm-ui-perl
+Pin: version 0.42-1
+Pin-Priority: 999
+
+Package: libtext-charwidth-perl
+Pin: version 0.04-7+b3
+Pin-Priority: 999
+
+Package: libtext-iconv-perl
+Pin: version 1.7-5+b2
+Pin-Priority: 999
+
+Package: libtext-soundex-perl
+Pin: version 3.4-1+b2
+Pin-Priority: 999
+
+Package: libtext-template-perl
+Pin: version 1.46-1
+Pin-Priority: 999
+
+Package: libtext-unidecode-perl
+Pin: version 1.22-1
+Pin-Priority: 999
+
+Package: libtext-wrapi18n-perl
+Pin: version 0.06-7
+Pin-Priority: 999
+
+Package: libthai-data
+Pin: version 0.1.21-1
+Pin-Priority: 999
+
+Package: libthai0:amd64
+Pin: version 0.1.21-1
+Pin-Priority: 999
+
+Package: libtiff5:amd64
+Pin: version 4.0.3-12.3+deb8u7
+Pin-Priority: 999
+
+Package: libtimedate-perl
+Pin: version 2.3000-2
+Pin-Priority: 999
+
+Package: libtinfo5:amd64
+Pin: version 5.9+20140913-1+deb8u3
+Pin-Priority: 999
+
+Package: libtirpc1:amd64
+Pin: version 0.2.5-1+deb8u2
+Pin-Priority: 999
+
+Package: libtokyocabinet9:amd64
+Pin: version 1.4.48-3
+Pin-Priority: 999
+
+Package: libtsan0:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libubsan0:amd64
+Pin: version 4.9.2-10+deb8u2
+Pin-Priority: 999
+
+Package: libudev1:amd64
+Pin: version 215-17+deb8u8
+Pin-Priority: 999
+
+Package: libunistring0:amd64
+Pin: version 0.9.3-5.2+b1
+Pin-Priority: 999
+
+Package: liburi-perl
+Pin: version 1.64-1
+Pin-Priority: 999
+
+Package: libusb-0.1-4:amd64
+Pin: version 2:0.1.12-25
+Pin-Priority: 999
+
+Package: libustr-1.0-1:amd64
+Pin: version 1.0.4-3+b2
+Pin-Priority: 999
+
+Package: libuuid-perl
+Pin: version 0.05-1+b1
+Pin-Priority: 999
+
+Package: libuuid1:amd64
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: libvisio-0.1-1
+Pin: version 0.1.0-2
+Pin-Priority: 999
+
+Package: libvpx1:amd64
+Pin: version 1.3.0-3+deb8u1
+Pin-Priority: 999
+
+Package: libwebp5:amd64
+Pin: version 0.4.1-1.2+b2
+Pin-Priority: 999
+
+Package: libwebpdemux1:amd64
+Pin: version 0.4.1-1.2+b2
+Pin-Priority: 999
+
+Package: libwebpmux1:amd64
+Pin: version 0.4.1-1.2+b2
+Pin-Priority: 999
+
+Package: libwmf0.2-7:amd64
+Pin: version 0.2.8.4-10.3+deb8u2
+Pin-Priority: 999
+
+Package: libwpd-0.10-10
+Pin: version 0.10.0-2+deb8u1
+Pin-Priority: 999
+
+Package: libwpg-0.3-3
+Pin: version 0.3.0-3
+Pin-Priority: 999
+
+Package: libwps-0.3-3
+Pin: version 0.3.0-2
+Pin-Priority: 999
+
+Package: libwrap0:amd64
+Pin: version 7.6.q-25
+Pin-Priority: 999
+
+Package: libwww-perl
+Pin: version 6.08-1
+Pin-Priority: 999
+
+Package: libwww-robotrules-perl
+Pin: version 6.01-1
+Pin-Priority: 999
+
+Package: libx11-6:amd64
+Pin: version 2:1.6.2-3+deb8u2
+Pin-Priority: 999
+
+Package: libx11-data
+Pin: version 2:1.6.2-3+deb8u2
+Pin-Priority: 999
+
+Package: libx11-xcb1:amd64
+Pin: version 2:1.6.2-3+deb8u2
+Pin-Priority: 999
+
+Package: libxapian22
+Pin: version 1.2.19-1+deb8u1
+Pin-Priority: 999
+
+Package: libxau6:amd64
+Pin: version 1:1.0.8-1
+Pin-Priority: 999
+
+Package: libxaw7:amd64
+Pin: version 2:1.0.12-2+b1
+Pin-Priority: 999
+
+Package: libxcb-dri2-0:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb-dri3-0:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb-glx0:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb-present0:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb-render0:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb-shm0:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb-sync1:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcb1:amd64
+Pin: version 1.10-3+b1
+Pin-Priority: 999
+
+Package: libxcomposite1:amd64
+Pin: version 1:0.4.4-1
+Pin-Priority: 999
+
+Package: libxcursor1:amd64
+Pin: version 1:1.1.14-1+deb8u2
+Pin-Priority: 999
+
+Package: libxdamage1:amd64
+Pin: version 1:1.1.4-2+b1
+Pin-Priority: 999
+
+Package: libxdmcp6:amd64
+Pin: version 1:1.1.1-1+b1
+Pin-Priority: 999
+
+Package: libxdot4
+Pin: version 2.38.0-7
+Pin-Priority: 999
+
+Package: libxext6:amd64
+Pin: version 2:1.3.3-1
+Pin-Priority: 999
+
+Package: libxfixes3:amd64
+Pin: version 1:5.0.1-2+deb8u1
+Pin-Priority: 999
+
+Package: libxi6:amd64
+Pin: version 2:1.7.4-1+deb8u1
+Pin-Priority: 999
+
+Package: libxinerama1:amd64
+Pin: version 2:1.1.3-1+b1
+Pin-Priority: 999
+
+Package: libxml-libxml-perl
+Pin: version 2.0116+dfsg-1+deb8u2
+Pin-Priority: 999
+
+Package: libxml-namespacesupport-perl
+Pin: version 1.11-1
+Pin-Priority: 999
+
+Package: libxml-parser-perl
+Pin: version 2.41-3
+Pin-Priority: 999
+
+Package: libxml-sax-base-perl
+Pin: version 1.07-1
+Pin-Priority: 999
+
+Package: libxml-sax-expat-perl
+Pin: version 0.40-2
+Pin-Priority: 999
+
+Package: libxml-sax-perl
+Pin: version 0.99+dfsg-2
+Pin-Priority: 999
+
+Package: libxml2:amd64
+Pin: version 2.9.1+dfsg1-5+deb8u7
+Pin-Priority: 999
+
+Package: libxmlsec1
+Pin: version 1.2.23-0.1~0
+Pin-Priority: 999
+
+Package: libxmlsec1-openssl
+Pin: version 1.2.23-0.1~0
+Pin-Priority: 999
+
+Package: libxmu6:amd64
+Pin: version 2:1.1.2-1
+Pin-Priority: 999
+
+Package: libxmuu1:amd64
+Pin: version 2:1.1.2-1
+Pin-Priority: 999
+
+Package: libxpm4:amd64
+Pin: version 1:3.5.12-0+deb8u1
+Pin-Priority: 999
+
+Package: libxrandr2:amd64
+Pin: version 2:1.4.2-1+deb8u1
+Pin-Priority: 999
+
+Package: libxrender1:amd64
+Pin: version 1:0.9.8-1+b1
+Pin-Priority: 999
+
+Package: libxshmfence1:amd64
+Pin: version 1.1-4
+Pin-Priority: 999
+
+Package: libxslt1.1:amd64
+Pin: version 1.1.28-2+deb8u3
+Pin-Priority: 999
+
+Package: libxt6:amd64
+Pin: version 1:1.1.4-1+b1
+Pin-Priority: 999
+
+Package: libxtables10
+Pin: version 1.4.21-2+b1
+Pin-Priority: 999
+
+Package: libxxf86vm1:amd64
+Pin: version 1:1.1.3-1+b1
+Pin-Priority: 999
+
+Package: libyajl2:amd64
+Pin: version 2.1.0-2
+Pin-Priority: 999
+
+Package: libyaml-0-2:amd64
+Pin: version 0.1.6-3
+Pin-Priority: 999
+
+Package: libzmq3:amd64
+Pin: version 4.0.5+dfsg-2+deb8u1
+Pin-Priority: 999
+
+Package: linux-base
+Pin: version 4.5~deb8u1
+Pin-Priority: 999
+
+Package: linux-image-3.16.0-4-amd64
+Pin: version 3.16.51-3
+Pin-Priority: 999
+
+Package: linux-image-3.16.0-6-amd64
+Pin: version 3.16.57-2
+Pin-Priority: 999
+
+Package: linux-image-3.16.0-7-amd64
+Pin: version 3.16.59-1
+Pin-Priority: 999
+
+Package: linux-image-amd64
+Pin: version 3.16+63+deb8u3
+Pin-Priority: 999
+
+Package: linux-libc-dev:amd64
+Pin: version 3.16.59-1
+Pin-Priority: 999
+
+Package: lksctp-tools
+Pin: version 1.0.16+dfsg-2
+Pin-Priority: 999
+
+Package: locales
+Pin: version 2.19-18+deb8u10
+Pin-Priority: 999
+
+Package: login
+Pin: version 1:4.2-3+deb8u4
+Pin-Priority: 999
+
+Package: logrotate
+Pin: version 3.8.7-1+b1
+Pin-Priority: 999
+
+Package: lp-solve
+Pin: version 5.5.0.13-7+b1
+Pin-Priority: 999
+
+Package: lsb-base
+Pin: version 4.1+Debian13+nmu1
+Pin-Priority: 999
+
+Package: lsb-release
+Pin: version 4.1+Debian13+nmu1
+Pin-Priority: 999
+
+Package: lsof
+Pin: version 4.86+dfsg-1
+Pin-Priority: 999
+
+Package: lvm2
+Pin: version 2.02.111-2.2+deb8u1
+Pin-Priority: 999
+
+Package: m4
+Pin: version 1.4.17-4
+Pin-Priority: 999
+
+Package: maint-guide-fr
+Pin: version 1.2.35
+Pin-Priority: 999
+
+Package: make
+Pin: version 4.0-8.1
+Pin-Priority: 999
+
+Package: makedev
+Pin: version 2.3.1-93
+Pin-Priority: 999
+
+Package: man-db
+Pin: version 2.7.0.2-5
+Pin-Priority: 999
+
+Package: manpages
+Pin: version 3.74-1
+Pin-Priority: 999
+
+Package: manpages-dev
+Pin: version 3.74-1
+Pin-Priority: 999
+
+Package: manpages-fr
+Pin: version 3.65d1p1-1
+Pin-Priority: 999
+
+Package: manpages-fr-extra
+Pin: version 20150130
+Pin-Priority: 999
+
+Package: mawk
+Pin: version 1.3.3-17
+Pin-Priority: 999
+
+Package: memcached
+Pin: version 1.4.21-1.1+deb8u2
+Pin-Priority: 999
+
+Package: mime-support
+Pin: version 3.58
+Pin-Priority: 999
+
+Package: mlocate
+Pin: version 0.26-1
+Pin-Priority: 999
+
+Package: mount
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: mountall
+Pin: version 2.54
+Pin-Priority: 999
+
+Package: multiarch-support
+Pin: version 2.19-18+deb8u10
+Pin-Priority: 999
+
+Package: mutt
+Pin: version 1.5.23-3+deb8u1
+Pin-Priority: 999
+
+Package: nano
+Pin: version 2.2.6-3
+Pin-Priority: 999
+
+Package: ncurses-base
+Pin: version 5.9+20140913-1+deb8u3
+Pin-Priority: 999
+
+Package: ncurses-bin
+Pin: version 5.9+20140913-1+deb8u3
+Pin-Priority: 999
+
+Package: ncurses-term
+Pin: version 5.9+20140913-1+deb8u3
+Pin-Priority: 999
+
+Package: net-tools
+Pin: version 1.60-26+b1
+Pin-Priority: 999
+
+Package: netbase
+Pin: version 5.3
+Pin-Priority: 999
+
+Package: netcat-traditional
+Pin: version 1.10-41
+Pin-Priority: 999
+
+Package: nfacct
+Pin: version 1.0.1-1.1
+Pin-Priority: 999
+
+Package: nfs-common
+Pin: version 1:1.2.8-9
+Pin-Priority: 999
+
+Package: nginx-common
+Pin: version 1.6.2-5+deb8u6
+Pin-Priority: 999
+
+Package: nginx-full
+Pin: version 1.6.2-5+deb8u6
+Pin-Priority: 999
+
+Package: openssh-client
+Pin: version 1:6.7p1-5+deb8u7
+Pin-Priority: 999
+
+Package: openssh-server
+Pin: version 1:6.7p1-5+deb8u7
+Pin-Priority: 999
+
+Package: openssh-sftp-server
+Pin: version 1:6.7p1-5+deb8u7
+Pin-Priority: 999
+
+Package: openssl
+Pin: version 1.0.1t-1+deb8u10
+Pin-Priority: 999
+
+Package: os-prober
+Pin: version 1.65+deb8u1
+Pin-Priority: 999
+
+Package: passerelle
+Pin: version 1.61-1~eob80+1
+Pin-Priority: 999
+
+Package: passwd
+Pin: version 1:4.2-3+deb8u4
+Pin-Priority: 999
+
+Package: patch
+Pin: version 2.7.5-1+deb8u1
+Pin-Priority: 999
+
+Package: pciutils
+Pin: version 1:3.2.1-3
+Pin-Priority: 999
+
+Package: perl
+Pin: version 5.20.2-3+deb8u12
+Pin-Priority: 999
+
+Package: perl-base
+Pin: version 5.20.2-3+deb8u12
+Pin-Priority: 999
+
+Package: perl-modules
+Pin: version 5.20.2-3+deb8u12
+Pin-Priority: 999
+
+Package: pigz
+Pin: version 2.3.1-2
+Pin-Priority: 999
+
+Package: pinentry-gtk2
+Pin: version 0.8.3-2
+Pin-Priority: 999
+
+Package: plymouth
+Pin: version 0.9.0-9
+Pin-Priority: 999
+
+Package: postfix
+Pin: version 2.11.3-1+deb8u2
+Pin-Priority: 999
+
+Package: postgresql-client
+Pin: version 9.4+165+deb8u3
+Pin-Priority: 999
+
+Package: postgresql-client-9.4
+Pin: version 9.4.19-0+deb8u1
+Pin-Priority: 999
+
+Package: postgresql-client-common
+Pin: version 165+deb8u3
+Pin-Priority: 999
+
+Package: procmail
+Pin: version 3.22-24+deb8u1
+Pin-Priority: 999
+
+Package: procps
+Pin: version 2:3.3.9-9+deb8u1
+Pin-Priority: 999
+
+Package: proj-data
+Pin: version 4.8.0-5
+Pin-Priority: 999
+
+Package: psmisc
+Pin: version 22.21-2
+Pin-Priority: 999
+
+Package: publik-base-theme
+Pin: version 3.53-1~eob80+1
+Pin-Priority: 999
+
+Package: python
+Pin: version 2.7.9-1
+Pin-Priority: 999
+
+Package: python-amqp
+Pin: version 1.4.5-2
+Pin-Priority: 999
+
+Package: python-antlr
+Pin: version 2.7.7+dfsg-6
+Pin-Priority: 999
+
+Package: python-anyjson
+Pin: version 0.3.3-1
+Pin-Priority: 999
+
+Package: python-appdirs
+Pin: version 1.4.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python-apt
+Pin: version 0.9.3.12
+Pin-Priority: 999
+
+Package: python-apt-common
+Pin: version 0.9.3.12
+Pin-Priority: 999
+
+Package: python-authentic2
+Pin: version 2.1.47-1~eob80+1
+Pin-Priority: 999
+
+Package: python-authentic2-auth-fc
+Pin: version 0.22-1~eob80+1
+Pin-Priority: 999
+
+Package: python-billiard
+Pin: version 3.3.0.18-2
+Pin-Priority: 999
+
+Package: python-cached-property
+Pin: version 1.4.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python-celery
+Pin: version 3.1.13-3
+Pin-Priority: 999
+
+Package: python-celery-common
+Pin: version 3.1.13-3
+Pin-Priority: 999
+
+Package: python-cffi-backend
+Pin: version 1.9.1-2~bpo8+1
+Pin-Priority: 999
+
+Package: python-chardet
+Pin: version 2.3.0-1
+Pin-Priority: 999
+
+Package: python-cmislib
+Pin: version 0.5.1-1~eob80+1
+Pin-Priority: 999
+
+Package: python-combo
+Pin: version 1.87-1~eob80+1
+Pin-Priority: 999
+
+Package: python-contextlib2
+Pin: version 0.4.0-2
+Pin-Priority: 999
+
+Package: python-crypto
+Pin: version 2.6.1-5+deb8u1
+Pin-Priority: 999
+
+Package: python-cryptography
+Pin: version 1.7.1-3~bpo8+1
+Pin-Priority: 999
+
+Package: python-dateutil
+Pin: version 2.2-2
+Pin-Priority: 999
+
+Package: python-debian
+Pin: version 0.1.27
+Pin-Priority: 999
+
+Package: python-debianbts
+Pin: version 1.12
+Pin-Priority: 999
+
+Package: python-defusedxml
+Pin: version 0.4.1-2
+Pin-Priority: 999
+
+Package: python-diff-match-patch
+Pin: version 20121119-1
+Pin-Priority: 999
+
+Package: python-django
+Pin: version 1.8.18-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-django-appconf
+Pin: version 1.0.1-4~bpo8+1
+Pin-Priority: 999
+
+Package: python-django-ckeditor
+Pin: version 4.5.3-1~eob80+1
+Pin-Priority: 999
+
+Package: python-django-common
+Pin: version 1.8.18-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-django-filters
+Pin: version 1.0.1-1~eob80+2
+Pin-Priority: 999
+
+Package: python-django-haystack
+Pin: version 2.4.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python-django-import-export
+Pin: version 0.2.7.6.1~eob80+1
+Pin-Priority: 999
+
+Package: python-django-jsonfield
+Pin: version 0.9.19.10-1~eob80+1
+Pin-Priority: 999
+
+Package: python-django-mellon
+Pin: version 1.2.38-1~eob80+1
+Pin-Priority: 999
+
+Package: python-django-model-utils
+Pin: version 2.5.2-1~eob80+2
+Pin-Priority: 999
+
+Package: python-django-select2
+Pin: version 5.10.0-1~eob80+2
+Pin-Priority: 999
+
+Package: python-django-tables2
+Pin: version 1.2.0-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-django-tenant-schemas
+Pin: version 1.5.2.1.271+g154fd2c-1~eob80+1
+Pin-Priority: 999
+
+Package: python-djangorestframework
+Pin: version 3.3.2-1~eob80+1
+Pin-Priority: 999
+
+Package: python-dnspython
+Pin: version 1.12.0-1
+Pin-Priority: 999
+
+Package: python-docutils
+Pin: version 0.12+dfsg-1
+Pin-Priority: 999
+
+Package: python-enum34
+Pin: version 1.0.3-1
+Pin-Priority: 999
+
+Package: python-eopayment
+Pin: version 1.31-1~eob80+1
+Pin-Priority: 999
+
+Package: python-fargo
+Pin: version 0.29-1~eob80+1
+Pin-Priority: 999
+
+Package: python-feedparser
+Pin: version 5.1.3-3
+Pin-Priority: 999
+
+Package: python-gadjo
+Pin: version 0.70-1~eob80+1
+Pin-Priority: 999
+
+Package: python-graypy
+Pin: version 0.2.11-1
+Pin-Priority: 999
+
+Package: python-gunicorn
+Pin: version 19.6.0-2~bpo8+1
+Pin-Priority: 999
+
+Package: python-hobo
+Pin: version 1.2-1~eob80+1
+Pin-Priority: 999
+
+Package: python-idna
+Pin: version 2.0-3~bpo8+1
+Pin-Priority: 999
+
+Package: python-imaging
+Pin: version 2.6.1-2+deb8u3
+Pin-Priority: 999
+
+Package: python-ipaddress
+Pin: version 1.0.16-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-iso8601
+Pin: version 0.1.10-1
+Pin-Priority: 999
+
+Package: python-isodate
+Pin: version 0.5.4-1~eob80+1
+Pin-Priority: 999
+
+Package: python-jsonschema
+Pin: version 2.3.0-1
+Pin-Priority: 999
+
+Package: python-jwcrypto
+Pin: version 0.4.2-1.1
+Pin-Priority: 999
+
+Package: python-jwt
+Pin: version 0.2.1-1+deb8u2
+Pin-Priority: 999
+
+Package: python-kombu
+Pin: version 3.0.21-2
+Pin-Priority: 999
+
+Package: python-lasso
+Pin: version 2.6.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python-ldap
+Pin: version 2.4.10-1
+Pin-Priority: 999
+
+Package: python-ldaptools
+Pin: version 0.14-1~eob80+1
+Pin-Priority: 999
+
+Package: python-lxml
+Pin: version 3.4.0-1+deb8u1
+Pin-Priority: 999
+
+Package: python-magic
+Pin: version 2:0.4.15-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-mailer
+Pin: version 0.7-1
+Pin-Priority: 999
+
+Package: python-markdown
+Pin: version 2.5.1-2
+Pin-Priority: 999
+
+Package: python-meld3
+Pin: version 1.0.0-1
+Pin-Priority: 999
+
+Package: python-memcache
+Pin: version 1.53+2014.06.08.git.918e88c496-1
+Pin-Priority: 999
+
+Package: python-minimal
+Pin: version 2.7.9-1
+Pin-Priority: 999
+
+Package: python-mock
+Pin: version 1.0.1-3
+Pin-Priority: 999
+
+Package: python-oauthlib
+Pin: version 0.6.3-1
+Pin-Priority: 999
+
+Package: python-odf
+Pin: version 1.2.0-2
+Pin-Priority: 999
+
+Package: python-passerelle
+Pin: version 1.61-1~eob80+1
+Pin-Priority: 999
+
+Package: python-phpserialize
+Pin: version 1.3-1~eob80+1
+Pin-Priority: 999
+
+Package: python-pil:amd64
+Pin: version 2.6.1-2+deb8u3
+Pin-Priority: 999
+
+Package: python-pkg-resources
+Pin: version 33.1.1-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-prometheus-client
+Pin: version 0.0.18-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-psycopg2
+Pin: version 2.5.4+dfsg-1
+Pin-Priority: 999
+
+Package: python-pyasn1
+Pin: version 0.1.9-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-pyexcel-io
+Pin: version 0.2.3-1~eob80+3
+Pin-Priority: 999
+
+Package: python-pyexcel-ods
+Pin: version 0.2.1-1~eob80+3
+Pin-Priority: 999
+
+Package: python-pyexcel-xls
+Pin: version 0.2.2-1~eob80+2
+Pin-Priority: 999
+
+Package: python-pygments
+Pin: version 2.0.1+dfsg-1.1+deb8u1
+Pin-Priority: 999
+
+Package: python-pyparsing
+Pin: version 2.0.3+dfsg1-1
+Pin-Priority: 999
+
+Package: python-pyproj
+Pin: version 1.8.9-1.1+b2
+Pin-Priority: 999
+
+Package: python-quixote
+Pin: version 2.7~b2-1+b2
+Pin-Priority: 999
+
+Package: python-raven
+Pin: version 5.11.1-1~eob80+1
+Pin-Priority: 999
+
+Package: python-reportbug
+Pin: version 6.6.3+deb8u2
+Pin-Priority: 999
+
+Package: python-requests
+Pin: version 2.11.1-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-requests-oauthlib
+Pin: version 0.4.0-1
+Pin-Priority: 999
+
+Package: python-requests-toolbelt
+Pin: version 0.8.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python-roman
+Pin: version 2.0.0-1
+Pin-Priority: 999
+
+Package: python-setuptools
+Pin: version 33.1.1-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-six
+Pin: version 1.10.0-3~bpo8+1
+Pin-Priority: 999
+
+Package: python-soappy
+Pin: version 0.12.22-1
+Pin-Priority: 999
+
+Package: python-sorl-thumbnail
+Pin: version 12.3-3~bpo8+1
+Pin-Priority: 999
+
+Package: python-sqlparse
+Pin: version 0.1.13-2
+Pin-Priority: 999
+
+Package: python-suds
+Pin: version 0.4.1-15
+Pin-Priority: 999
+
+Package: python-support
+Pin: version 1.0.15
+Pin-Priority: 999
+
+Package: python-tablib
+Pin: version 0.9.11-2+deb8u1
+Pin-Priority: 999
+
+Package: python-tz
+Pin: version 2012c+dfsg-0.1
+Pin-Priority: 999
+
+Package: python-urllib3
+Pin: version 1.16-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-vobject
+Pin: version 0.8.1c-4
+Pin-Priority: 999
+
+Package: python-whoosh
+Pin: version 2.5.7-3
+Pin-Priority: 999
+
+Package: python-wstools
+Pin: version 0.4.3-2
+Pin-Priority: 999
+
+Package: python-xlrd
+Pin: version 0.9.2-1
+Pin-Priority: 999
+
+Package: python-xlwt
+Pin: version 0.7.5+debian1-1
+Pin-Priority: 999
+
+Package: python-xstatic
+Pin: version 1.0.0-4~bpo8+1
+Pin-Priority: 999
+
+Package: python-xstatic-abrilfatface
+Pin: version 0.1.0-1~eob80+2
+Pin-Priority: 999
+
+Package: python-xstatic-font-awesome
+Pin: version 4.1.0-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-xstatic-josefinsans
+Pin: version 0.0.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python-xstatic-jquery
+Pin: version 1.10.2.1-1~eo70+3
+Pin-Priority: 999
+
+Package: python-xstatic-jquery-ui
+Pin: version 1.11.0.1-1~eo70+2
+Pin-Priority: 999
+
+Package: python-xstatic-leaflet
+Pin: version 1.0.2.1-1~eob80+2
+Pin-Priority: 999
+
+Package: python-xstatic-leaflet-markercluster
+Pin: version 1.3.2.1-1~eob80+1
+Pin-Priority: 999
+
+Package: python-xstatic-opensans
+Pin: version 0.0.0-1~eob80+2
+Pin-Priority: 999
+
+Package: python-xstatic-roboto-fontface
+Pin: version 0.4.3.2-1~bpo8+1
+Pin-Priority: 999
+
+Package: python-xstatic-select2
+Pin: version 4.0.3.1-1~eob80+2
+Pin-Priority: 999
+
+Package: python-yaml
+Pin: version 3.11-2
+Pin-Priority: 999
+
+Package: python-zeep
+Pin: version 2.5.0-1~eob80+1
+Pin-Priority: 999
+
+Package: python2.7
+Pin: version 2.7.9-2+deb8u2
+Pin-Priority: 999
+
+Package: python2.7-minimal
+Pin: version 2.7.9-2+deb8u2
+Pin-Priority: 999
+
+Package: python3
+Pin: version 3.4.2-2
+Pin-Priority: 999
+
+Package: python3-apt
+Pin: version 0.9.3.12
+Pin-Priority: 999
+
+Package: python3-dbus
+Pin: version 1.2.0-2+b3
+Pin-Priority: 999
+
+Package: python3-gi
+Pin: version 3.14.0-1
+Pin-Priority: 999
+
+Package: python3-minimal
+Pin: version 3.4.2-2
+Pin-Priority: 999
+
+Package: python3-software-properties
+Pin: version 0.92.25debian1
+Pin-Priority: 999
+
+Package: python3-uno
+Pin: version 1:4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: python3.4
+Pin: version 3.4.2-1+deb8u1
+Pin-Priority: 999
+
+Package: python3.4-minimal
+Pin: version 3.4.2-1+deb8u1
+Pin-Priority: 999
+
+Package: quilt
+Pin: version 0.63-3
+Pin-Priority: 999
+
+Package: rabbitmq-server
+Pin: version 3.3.5-1.1+deb8u1
+Pin-Priority: 999
+
+Package: readline-common
+Pin: version 6.3-8
+Pin-Priority: 999
+
+Package: rename
+Pin: version 0.20-3
+Pin-Priority: 999
+
+Package: reportbug
+Pin: version 6.6.3+deb8u2
+Pin-Priority: 999
+
+Package: rpcbind
+Pin: version 0.2.1-6+deb8u2
+Pin-Priority: 999
+
+Package: rsync
+Pin: version 3.1.1-3+deb8u1
+Pin-Priority: 999
+
+Package: rsyslog
+Pin: version 8.4.2-1+deb8u2
+Pin-Priority: 999
+
+Package: ruby
+Pin: version 1:2.1.5+deb8u2
+Pin-Priority: 999
+
+Package: ruby-celluloid
+Pin: version 0.15.2-2
+Pin-Priority: 999
+
+Package: ruby-ffi
+Pin: version 1.9.6debian-2
+Pin-Priority: 999
+
+Package: ruby-listen
+Pin: version 2.4.0-4
+Pin-Priority: 999
+
+Package: ruby-rb-inotify
+Pin: version 0.9.5-1
+Pin-Priority: 999
+
+Package: ruby-sass
+Pin: version 3.4.6-2
+Pin-Priority: 999
+
+Package: ruby-timers
+Pin: version 1.1.0-2
+Pin-Priority: 999
+
+Package: ruby2.1
+Pin: version 2.1.5-2+deb8u6
+Pin-Priority: 999
+
+Package: rubygems-integration
+Pin: version 1.8
+Pin-Priority: 999
+
+Package: sed
+Pin: version 4.2.2-4+deb8u1
+Pin-Priority: 999
+
+Package: sensible-utils
+Pin: version 0.0.9+deb8u1
+Pin-Priority: 999
+
+Package: sgml-base
+Pin: version 1.26+nmu4
+Pin-Priority: 999
+
+Package: shared-mime-info
+Pin: version 1.3-1
+Pin-Priority: 999
+
+Package: software-properties-common
+Pin: version 0.92.25debian1
+Pin-Priority: 999
+
+Package: ssh
+Pin: version 1:6.7p1-5+deb8u7
+Pin-Priority: 999
+
+Package: ssl-cert
+Pin: version 1.0.35
+Pin-Priority: 999
+
+Package: startpar
+Pin: version 0.59-3
+Pin-Priority: 999
+
+Package: sudo
+Pin: version 1.8.10p3-1+deb8u5
+Pin-Priority: 999
+
+Package: supervisor
+Pin: version 3.0r1-1+deb8u1
+Pin-Priority: 999
+
+Package: systemd
+Pin: version 215-17+deb8u8
+Pin-Priority: 999
+
+Package: systemd-sysv
+Pin: version 215-17+deb8u8
+Pin-Priority: 999
+
+Package: sysv-rc
+Pin: version 2.88dsf-59
+Pin-Priority: 999
+
+Package: sysvinit-utils
+Pin: version 2.88dsf-59
+Pin-Priority: 999
+
+Package: tar
+Pin: version 1.27.1-2+deb8u2
+Pin-Priority: 999
+
+Package: task-french
+Pin: version 3.31+deb8u1
+Pin-Priority: 999
+
+Package: tasksel
+Pin: version 3.31+deb8u1
+Pin-Priority: 999
+
+Package: tasksel-data
+Pin: version 3.31+deb8u1
+Pin-Priority: 999
+
+Package: tcpd
+Pin: version 7.6.q-25
+Pin-Priority: 999
+
+Package: telnet
+Pin: version 0.17-36
+Pin-Priority: 999
+
+Package: texinfo
+Pin: version 5.2.0.dfsg.1-6
+Pin-Priority: 999
+
+Package: time
+Pin: version 1.7-25
+Pin-Priority: 999
+
+Package: traceroute
+Pin: version 1:2.0.20-2+b1
+Pin-Priority: 999
+
+Package: tzdata
+Pin: version 2018i-0+deb8u1
+Pin-Priority: 999
+
+Package: ucf
+Pin: version 3.0030
+Pin-Priority: 999
+
+Package: udev
+Pin: version 215-17+deb8u8
+Pin-Priority: 999
+
+Package: unattended-upgrades
+Pin: version 0.83.3.2+deb8u1
+Pin-Priority: 999
+
+Package: uno-libs3
+Pin: version 4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: unzip
+Pin: version 6.0-16+deb8u3
+Pin-Priority: 999
+
+Package: ure
+Pin: version 4.3.3-2+deb8u11
+Pin-Priority: 999
+
+Package: util-linux
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: util-linux-locales
+Pin: version 2.25.2-6
+Pin-Priority: 999
+
+Package: uwsgi
+Pin: version 2.0.7-1+deb8u2
+Pin-Priority: 999
+
+Package: uwsgi-core
+Pin: version 2.0.7-1+deb8u2
+Pin-Priority: 999
+
+Package: uwsgi-plugin-python
+Pin: version 2.0.7-1+deb8u2
+Pin-Priority: 999
+
+Package: vim
+Pin: version 2:7.4.488-7+deb8u3
+Pin-Priority: 999
+
+Package: vim-common
+Pin: version 2:7.4.488-7+deb8u3
+Pin-Priority: 999
+
+Package: vim-runtime
+Pin: version 2:7.4.488-7+deb8u3
+Pin-Priority: 999
+
+Package: vim-tiny
+Pin: version 2:7.4.488-7+deb8u3
+Pin-Priority: 999
+
+Package: w3m
+Pin: version 0.5.3-19+deb8u2
+Pin-Priority: 999
+
+Package: wamerican
+Pin: version 7.1-1
+Pin-Priority: 999
+
+Package: wcs
+Pin: version 3.39-1~eob80+1
+Pin-Priority: 999
+
+Package: wcs-au-quotidien
+Pin: version 3.32-1~eob80+1
+Pin-Priority: 999
+
+Package: wfrench
+Pin: version 1.2.3-10
+Pin-Priority: 999
+
+Package: wget
+Pin: version 1.16-1+deb8u5
+Pin-Priority: 999
+
+Package: whiptail
+Pin: version 0.52.17-1+b1
+Pin-Priority: 999
+
+Package: whois
+Pin: version 5.2.7
+Pin-Priority: 999
+
+Package: x11-common
+Pin: version 1:7.7+7
+Pin-Priority: 999
+
+Package: xauth
+Pin: version 1:1.0.9-1
+Pin-Priority: 999
+
+Package: xdg-user-dirs
+Pin: version 0.15-2
+Pin-Priority: 999
+
+Package: xkb-data
+Pin: version 2.12-1
+Pin-Priority: 999
+
+Package: xml-core
+Pin: version 0.13+nmu2
+Pin-Priority: 999
+
+Package: xz-utils
+Pin: version 5.1.1alpha+20120614-2+b3
+Pin-Priority: 999
+
+Package: zip
+Pin: version 3.0-8
+Pin-Priority: 999
+
+Package: zlib1g:amd64
+Pin: version 1:1.2.8.dfsg-2+b1
+Pin-Priority: 999
+
