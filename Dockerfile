@@ -2,9 +2,9 @@ FROM debian:jessie
 
 MAINTAINER Julien BAYLE <julien.bayle@loire-atlantique.fr>
 
-# WGET, NGNIX, VIM, ENVSUBST
+# WGET, NGNIX, VIM, ENVSUBST, QUILT, GIT
 RUN apt-get update \
-    && apt-get install -y vim gettext wget nginx-full git \
+    && apt-get install -y vim gettext wget nginx-full quilt git \
     && rm -rf /var/lib/apt/lists/*
 
 # APT SOURCES
