@@ -68,3 +68,4 @@ RUN chmod +x /root/wait-for-it.sh
 
 # Add GRU UPDATE SCRIPT
 COPY update.sh /root
+COPY publik-prod-apt-preferences /etc/apt/preferences.d/
