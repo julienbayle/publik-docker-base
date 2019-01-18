@@ -257,6 +257,7 @@ if [ "$DO_THEME" == "1" ]; then
 	make install >> $LOG_FILE
 
 	log "THEME HAS BEEN UPDATED SUCCESSFULLY"
+	DO_RESTART_GRU="1"
 fi
 			
 # -------------------------------------
