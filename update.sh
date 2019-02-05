@@ -27,6 +27,11 @@ PUBLIK_PATCHES_GIT="https://github.com/departement-loire-atlantique/publik"
 PUBLIK_PATCHES_DIR="/root/publik-patches"
 PUBLIK_APT_PREFERENCES_GIT="https://raw.githubusercontent.com/departement-loire-atlantique/publik-docker-base/master/"
 PUBLIK_APT_PREFERENCES_FILE="publik-prod-apt-preferences"
+
+# List of django apps (Publik modules)
+APPS=( "passerelle-orangesms" )
+GIT_URL="https://github.com/departement-loire-atlantique/"
+
 LOG_DIR=/var/log/publik_updates
 NOW=`date '+%Y-%m-%d_%H-%M-%S'`
 
@@ -41,12 +46,18 @@ DO_PATCH=""
 DO_APT=""
 DO_PREF=""
 DO_RESTART_GRU=""
+DO_APPS=""
 
 while (( "$#" )); do
   case "$1" in
     -t|--update-theme)
       DO_LOG="1"
       DO_THEME="1"
+      shift
+      ;;
+    -d|--update-apps)
+      DO_LOG="1"
+      DO_APPS="1"
       shift
       ;;
     -s|--update-packages)
@@ -68,6 +79,7 @@ while (( "$#" )); do
       DO_THEME="1"
       DO_APT="1"
       DO_PATCH="1"
+      DO_APPS="1"
       shift
       ;;
     --) # end argument parsing
@@ -85,8 +97,8 @@ while (( "$#" )); do
   esac
 done
 
-if [ -z "$DO_THEME$DO_APT$DO_PATCH$DO_PREF" ]; then
-	echo "ERROR - Nothing to do. Please use --update-theme, --generate-apt-preferences, --update-packages, --patch or --all"
+if [ -z "$DO_THEME$DO_APT$DO_PATCH$DO_PREF$DO_APPS" ]; then
+	echo "ERROR - Nothing to do. Please use --update-theme, --update-apps, --generate-apt-preferences, --update-packages, --patch or --all"
 	exit 1
 fi
 
@@ -236,6 +248,30 @@ if [ "$DO_PATCH" == "1" ]; then
 	done
 
 	log "PATCHES APPLIED"
+	DO_RESTART_GRU="1"
+fi
+
+# -------------------------------------
+# APPS
+# -------------------------------------
+
+if [ "$DO_APPS" == "1" ]; then
+
+	# Install PIP if needed
+	if [ ! -x /usr/local/bin/pip ];  then
+        	log "INSTALL PIP"
+		cd /tmp && wget https://bootstrap.pypa.io/get-pip.py >> $LOG_FILE
+        	python get-pip.py >> $LOG_FILE
+        	rm /tmp/get_pip.py >> $LOG_FILE
+	fi
+
+	# Install or update apps
+	for APP in "${APPS[@]}"
+	do
+        	VERSION=$(git ls-remote --tags $GIT_URL$APP | cut -d/ -f3- | sort -V | head -n1)
+        	log "INSTALL OR UPDATE APP : $APP ($VERSION)"
+        	pip install "git+$GIT_URL$APP@$VERSION#egg=$APP" --upgrade >> $LOG_FILE
+	done
 	DO_RESTART_GRU="1"
 fi
 
