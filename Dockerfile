@@ -66,6 +66,9 @@ COPY global.nginx.conf /etc/nginx/conf.d/global.conf
 COPY wait-for-it.sh /root
 RUN chmod +x /root/wait-for-it.sh
 
+# Add PIP
+RUN wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py
+
 # Add GRU UPDATE SCRIPT
 COPY update.sh /root
 COPY publik-prod-apt-preferences /etc/apt/preferences.d/
