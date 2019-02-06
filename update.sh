@@ -289,7 +289,10 @@ if [ "$DO_THEME" == "1" ]; then
 
 	cd /tmp
 	git clone $PUBLIK_THEMES_GIT --recurse-submodules --depth=1 >> $LOG_FILE
-	cd publik-themes
+	cd publik-themes/publik-base-theme
+	git checkout master >> $LOG_FILE
+	git pull >> $LOG_FILE
+	cd ..
 	make install >> $LOG_FILE
 
 	log "THEME HAS BEEN UPDATED SUCCESSFULLY"
