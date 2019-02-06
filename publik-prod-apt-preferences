@@ -1,4 +1,4 @@
-# Generated on 2019-01-10_16-13-58
+# Generated on 2019-02-06_10-36-06
 
 Package: acl
 Pin: version 2.2.52-2
@@ -21,7 +21,7 @@ Pin: version 3.113+nmu3
 Pin-Priority: 999
 
 Package: apt
-Pin: version 1.0.9.8.4
+Pin: version 1.0.9.8.5
 Pin-Priority: 999
 
 Package: apt-listchanges
@@ -29,11 +29,11 @@ Pin: version 2.85.13+nmu1
 Pin-Priority: 999
 
 Package: apt-transport-https
-Pin: version 1.0.9.8.4
+Pin: version 1.0.9.8.5
 Pin-Priority: 999
 
 Package: apt-utils
-Pin: version 1.0.9.8.4
+Pin: version 1.0.9.8.5
 Pin-Priority: 999
 
 Package: aptitude
@@ -65,7 +65,7 @@ Pin: version 1:3.2+20130722-1.1
 Pin-Priority: 999
 
 Package: authentic2-multitenant
-Pin: version 2.1.47-1~eob80+1
+Pin: version 2.1.48-1~eob80+1
 Pin-Priority: 999
 
 Package: autopoint
@@ -157,7 +157,7 @@ Pin: version 0.106.9-1
 Pin-Priority: 999
 
 Package: combo
-Pin: version 1.87-1~eob80+1
+Pin: version 1.91-1~eob80+1
 Pin-Priority: 999
 
 Package: console-setup
@@ -449,7 +449,7 @@ Pin: version 1.20.2-1
 Pin-Priority: 999
 
 Package: fargo
-Pin: version 0.29-1~eob80+1
+Pin: version 0.30-1~eob80+1
 Pin-Priority: 999
 
 Package: file
@@ -725,7 +725,7 @@ Pin: version 18-3
 Pin-Priority: 999
 
 Package: krb5-locales
-Pin: version 1.12.1+dfsg-19+deb8u4
+Pin: version 1.12.1+dfsg-19+deb8u5
 Pin-Priority: 999
 
 Package: laptop-detect
@@ -761,11 +761,11 @@ Pin: version 0.08-2
 Pin-Priority: 999
 
 Package: libapt-inst1.5:amd64
-Pin: version 1.0.9.8.4
+Pin: version 1.0.9.8.5
 Pin-Priority: 999
 
 Package: libapt-pkg4.12:amd64
-Pin: version 1.0.9.8.4
+Pin: version 1.0.9.8.5
 Pin-Priority: 999
 
 Package: libarchive-extract-perl
@@ -1149,7 +1149,7 @@ Pin: version 1.6.3-2+deb8u5
 Pin-Priority: 999
 
 Package: libgd3:amd64
-Pin: version 2.1.0-5+deb8u11
+Pin: version 2.1.0-5+deb8u12
 Pin-Priority: 999
 
 Package: libgdbm3:amd64
@@ -1249,7 +1249,7 @@ Pin: version 1.3.10-1~deb8u1
 Pin-Priority: 999
 
 Package: libgssapi-krb5-2:amd64
-Pin: version 1.12.1+dfsg-19+deb8u4
+Pin: version 1.12.1+dfsg-19+deb8u5
 Pin-Priority: 999
 
 Package: libgstreamer-plugins-base1.0-0:amd64
@@ -1417,7 +1417,7 @@ Pin: version 2.1-3.1
 Pin-Priority: 999
 
 Package: libjpeg62-turbo:amd64
-Pin: version 1:1.3.1-12
+Pin: version 1:1.3.1-12+deb8u1
 Pin-Priority: 999
 
 Package: libjs-jquery
@@ -1429,7 +1429,7 @@ Pin: version 0.11-4
 Pin-Priority: 999
 
 Package: libk5crypto3:amd64
-Pin: version 1.12.1+dfsg-19+deb8u4
+Pin: version 1.12.1+dfsg-19+deb8u5
 Pin-Priority: 999
 
 Package: libkeyutils1:amd64
@@ -1445,11 +1445,11 @@ Pin: version 18-3
 Pin-Priority: 999
 
 Package: libkrb5-3:amd64
-Pin: version 1.12.1+dfsg-19+deb8u4
+Pin: version 1.12.1+dfsg-19+deb8u5
 Pin-Priority: 999
 
 Package: libkrb5support0:amd64
-Pin: version 1.12.1+dfsg-19+deb8u4
+Pin: version 1.12.1+dfsg-19+deb8u5
 Pin-Priority: 999
 
 Package: libksba8:amd64
@@ -1672,6 +1672,10 @@ Package: libodfgen-0.1-1
 Pin: version 0.1.1-2
 Pin-Priority: 999
 
+Package: libopts25:amd64
+Pin: version 1:5.18.4-3
+Pin-Priority: 999
+
 Package: liborc-0.4-0:amd64
 Pin: version 1:0.4.22-1
 Pin-Priority: 999
@@ -1777,7 +1781,7 @@ Pin: version 1.16-10
 Pin-Priority: 999
 
 Package: libpq5:amd64
-Pin: version 9.4.19-0+deb8u1
+Pin: version 9.4.20-0+deb8u1
 Pin-Priority: 999
 
 Package: libprocps3:amd64
@@ -1985,7 +1989,7 @@ Pin: version 0.103010-3
 Pin-Priority: 999
 
 Package: libsqlite3-0:amd64
-Pin: version 3.8.7.1-1+deb8u3
+Pin: version 3.8.7.1-1+deb8u4
 Pin-Priority: 999
 
 Package: libss2:amd64
@@ -2025,7 +2029,7 @@ Pin: version 2.17-2
 Pin-Priority: 999
 
 Package: libsystemd0:amd64
-Pin: version 215-17+deb8u8
+Pin: version 215-17+deb8u9
 Pin-Priority: 999
 
 Package: libtasn1-6:amd64
@@ -2097,7 +2101,7 @@ Pin: version 4.9.2-10+deb8u2
 Pin-Priority: 999
 
 Package: libudev1:amd64
-Pin: version 215-17+deb8u8
+Pin: version 215-17+deb8u9
 Pin-Priority: 999
 
 Package: libunistring0:amd64
@@ -2524,6 +2528,10 @@ Package: nginx-full
 Pin: version 1.6.2-5+deb8u6
 Pin-Priority: 999
 
+Package: ntp
+Pin: version 1:4.2.6.p5+dfsg-7+deb8u2
+Pin-Priority: 999
+
 Package: openssh-client
 Pin: version 1:6.7p1-5+deb8u7
 Pin-Priority: 999
@@ -2545,7 +2553,7 @@ Pin: version 1.65+deb8u1
 Pin-Priority: 999
 
 Package: passerelle
-Pin: version 1.61-1~eob80+1
+Pin: version 1.68-1~eob80+1
 Pin-Priority: 999
 
 Package: passwd
@@ -2593,7 +2601,7 @@ Pin: version 9.4+165+deb8u3
 Pin-Priority: 999
 
 Package: postgresql-client-9.4
-Pin: version 9.4.19-0+deb8u1
+Pin: version 9.4.20-0+deb8u1
 Pin-Priority: 999
 
 Package: postgresql-client-common
@@ -2617,7 +2625,7 @@ Pin: version 22.21-2
 Pin-Priority: 999
 
 Package: publik-base-theme
-Pin: version 3.53-1~eob80+1
+Pin: version 3.64-1~eob80+1
 Pin-Priority: 999
 
 Package: python
@@ -2649,7 +2657,7 @@ Pin: version 0.9.3.12
 Pin-Priority: 999
 
 Package: python-authentic2
-Pin: version 2.1.47-1~eob80+1
+Pin: version 2.1.48-1~eob80+1
 Pin-Priority: 999
 
 Package: python-authentic2-auth-fc
@@ -2685,7 +2693,7 @@ Pin: version 0.5.1-1~eob80+1
 Pin-Priority: 999
 
 Package: python-combo
-Pin: version 1.87-1~eob80+1
+Pin: version 1.91-1~eob80+1
 Pin-Priority: 999
 
 Package: python-contextlib2
@@ -2789,11 +2797,11 @@ Pin: version 1.0.3-1
 Pin-Priority: 999
 
 Package: python-eopayment
-Pin: version 1.31-1~eob80+1
+Pin: version 1.32-1~eob80+1
 Pin-Priority: 999
 
 Package: python-fargo
-Pin: version 0.29-1~eob80+1
+Pin: version 0.30-1~eob80+1
 Pin-Priority: 999
 
 Package: python-feedparser
@@ -2905,7 +2913,7 @@ Pin: version 1.2.0-2
 Pin-Priority: 999
 
 Package: python-passerelle
-Pin: version 1.61-1~eob80+1
+Pin: version 1.68-1~eob80+1
 Pin-Priority: 999
 
 Package: python-phpserialize
@@ -3249,11 +3257,11 @@ Pin: version 3.0r1-1+deb8u1
 Pin-Priority: 999
 
 Package: systemd
-Pin: version 215-17+deb8u8
+Pin: version 215-17+deb8u9
 Pin-Priority: 999
 
 Package: systemd-sysv
-Pin: version 215-17+deb8u8
+Pin: version 215-17+deb8u9
 Pin-Priority: 999
 
 Package: sysv-rc
@@ -3309,7 +3317,7 @@ Pin: version 3.0030
 Pin-Priority: 999
 
 Package: udev
-Pin: version 215-17+deb8u8
+Pin: version 215-17+deb8u9
 Pin-Priority: 999
 
 Package: unattended-upgrades
@@ -3373,11 +3381,11 @@ Pin: version 7.1-1
 Pin-Priority: 999
 
 Package: wcs
-Pin: version 3.39-1~eob80+1
+Pin: version 3.48-1~eob80+1
 Pin-Priority: 999
 
 Package: wcs-au-quotidien
-Pin: version 3.32-1~eob80+1
+Pin: version 3.48-1~eob80+1
 Pin-Priority: 999
 
 Package: wfrench
