@@ -262,7 +262,7 @@ if [ "$DO_APPS" == "1" ]; then
         	log "INSTALL PIP"
 		cd /tmp && wget https://bootstrap.pypa.io/get-pip.py >> $LOG_FILE
         	python get-pip.py >> $LOG_FILE
-        	rm /tmp/get_pip.py >> $LOG_FILE
+        	rm -f /tmp/get_pip.py >> $LOG_FILE
 	fi
 
 	# Install or update apps
